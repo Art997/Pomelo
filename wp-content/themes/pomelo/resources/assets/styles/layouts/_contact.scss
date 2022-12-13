@@ -1,0 +1,187 @@
+section#contact-1{
+    height:120vh;
+    position: relative;
+    z-index: -2; 
+    .contact-sticky{
+        height:50vh;
+    }
+    .contact-first-text{
+        font-size: 100px;
+        text-transform: uppercase;
+        padding:200px 0;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 1.25rem;
+        line-height: 1.1;
+        span {
+            position:relative;
+            display: inline-flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .span-contact-last-child{
+            font-family: 'Crimson Pro';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 120px;
+            line-height: 133px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #FDC800;
+        }
+    }
+    .col-xl-2{
+        overflow: hidden;
+        max-height:100vh;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        .contact-vertical-text{
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            text-transform: uppercase;
+            overflow: hidden;
+            padding-top: 0px; 
+            font-size: 123px;
+            margin:0;
+            color: black;
+            font-weight: 400;
+            height: 120%;
+            display: flex;
+            animation: textLoopContact 20s linear infinite;
+        }
+        @keyframes textLoopContact {
+        0% {
+            -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0)
+        }
+        100% {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0)
+        }
+        }
+    }
+}
+
+section#container-contact-2{
+    transform: translateY(-139%) !important;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: -1; 
+    section#contact-2{
+        position: relative;
+        background-color: #1c1c20;
+        height: 100vh;
+        translate: 100%;
+       form{
+        h2{
+            font-family: 'Crimson Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 33px;
+            color: #fff;
+        }
+       }
+       .brief-section{
+        padding-top: 120px;
+        h2{
+            font-family: 'Crimson Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 33px;
+            color: #fff;
+            position: relative;
+            padding-bottom: 20px;
+            &:after{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left:0;
+                width: 80%;
+                height:1px;
+                background-color: #fff;
+            }
+        }
+        h3{
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 33px;
+            color: #fff;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            li{
+                padding: 4px 0;
+                a{
+                    font-weight: 300;
+                    font-size: 30px;
+                    line-height: 43px;
+                    color: #818181;
+                    transition: all 0.2s ease;
+                    &:hover{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+       }
+    }
+}
+
+section#contact-3{
+    background-color:#F2E9E1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .col-xl-6{
+        height: 100%;
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            font-family: 'Crimson Pro';
+            font-style: italic;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 67px;
+            text-align: center;
+            a{
+                color: black;
+                text-decoration: none;
+                transition: all 0.2s ease;
+                &:hover{
+                    opacity: 0.6;
+                }
+            }
+        }
+        h4{
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 43px;
+            color: #818181;
+            position: relative;
+            &:after{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                background-color:  #000;
+                bottom:0;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+}

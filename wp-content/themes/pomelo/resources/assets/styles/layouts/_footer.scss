@@ -1,0 +1,177 @@
+footer{
+    height: 100%;
+    background-color: #1c1c20;
+    width: 100vw;
+    // padding-bottom:100px;
+    .footer-list-container{
+        .footer-list{
+            .elipse-footer{
+                width: 348px;
+                height: 348px;
+                border-radius: 50%;
+                transform: translate(0, -20%);
+                background-color: #F2E9E1;
+                svg{
+                    position: absolute;
+                    bottom:0;
+                    left:10px;
+                }
+                .eye-container{
+                    width:25px;
+                    height:25px;
+                    position: absolute;
+                }
+                .eye-1-cont{
+                    left: 30%;
+                    bottom: 9%;
+                    .eye-1{
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: black;
+                        position: relative; 
+                    }
+                } 
+                .eye-2-cont{
+                    bottom: 18%;
+                    left: 19%;
+                    .eye-2{
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: black;
+                        position: relative; 
+                    }
+                }
+            }
+        }
+    }
+    .footer-media-section{
+        padding-top: 60px;
+        .footer-single-media{
+            position: relative;
+            padding: 25px 0;
+            text-align: left;
+            transform: translate(10%, 0);
+            a{
+                color: white;
+                text-transform: uppercase;
+                font-size: 30px;
+                text-align: right;
+                font-weight: 300;
+                transition: font-weight 0.2s ease;
+                
+                &:hover{
+                    font-weight: 500;
+                    text-decoration: none;
+                    ~ .rope{
+                        height:2px;
+                        border-bottom: 2px solid white;
+                    }
+                }
+            }
+            .rope{
+                width:475px;
+                height:1px;
+                position: absolute;
+                bottom:20%;
+                transform: translate(20%, 0);
+                border-bottom: 1px solid white;
+                right: 0;
+                transition: transform 0.3s ease;
+            }
+            &:hover{ 
+                .rope{
+                height:2px;
+            }
+            }
+        }
+    }
+    .image-1{
+        position: absolute;
+        right: 20%;
+        top:9%; 
+    }
+    .image-2{
+        position: absolute;
+        left: 10%;
+        top:50%; 
+    }
+    .logo-footer{
+        padding-top:150px; 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        p{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 36px;
+        color: #FFFFFF;
+        margin:0;
+    }
+    }
+    .contact-a-footer{
+        padding-top:150px; 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 100px;
+        
+        a{
+            font-weight: 500;
+            font-size: 25px;
+            color: #FFFFFF;
+            text-align: left;
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+            &:hover{
+                text-decoration: none;
+                opacity: 0.7;
+            }
+        }
+   
+    }
+    #menu-footer-menu{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding-right: 200px;
+        padding-bottom: 100px;
+        li{
+            text-align: left;
+            a{
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 150%;
+                color: white;
+                text-decoration: none;
+                text-align: left;
+                transition: opacity 0.2s ease;
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+    .overlay-footer{
+        position: absolute;
+        right: 0;
+        bottom:0;
+    }
+}
+
+section#footer-2{
+    background-color: #F2E9E1 !important;
+    width: 100%;
+    p{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 150%;
+        letter-spacing: 2.56em;
+        color: #000000;
+        padding: 10px 0px 0px 80px;
+    }
+}

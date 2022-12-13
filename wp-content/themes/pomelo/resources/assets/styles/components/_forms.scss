@@ -1,0 +1,198 @@
+/** Search form */
+.search-form {
+  @extend .form-inline;
+}
+
+.search-form label {
+  @extend .form-group;
+
+  font-weight: normal;
+}
+
+.search-form .search-field {
+  @extend .form-control;
+}
+
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+.footer-form{
+  padding-top:100px;
+  label{
+    background-color: #1c1c20;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 8px 0;
+    text-indent: 3px;
+    input[type=email], input[type=text], input[type=tel]{
+      background-color: #1c1c20;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-bottom: 1px solid white; 
+      color: white;
+      &:focus{
+        box-shadow: none;
+        outline: none;
+      } 
+    }
+  }
+  .wpcf7-form-control-wrap{
+    .wpcf7-acceptance{
+      span{
+      font-family: 'Jost';
+      font-weight: 400;
+      width: 100%;
+      margin: 0;
+      padding: 40px 0px 0px;
+      text-align: center;
+      font-size: 18px;
+      a{
+        font-weight: 600;
+        color:white;
+      }
+      input{
+        display: none;
+      }
+
+        input:checked + span:before {
+          max-width: 18px;
+          min-width: 18px;
+          border:1px solid white;
+          background-color: #fff;
+        }
+  
+        input:checked + span:after {
+          content: "";  
+        }
+        .wpcf7-list-item-label {
+          position: relative;
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          cursor: pointer;
+          &:before {
+              margin-right: 18px;
+              content: '';
+              display: inline-block;
+              min-width:18px;
+              transition: all 0.2s ease;
+              min-height: 18px;
+              max-width:18px;
+              max-height: 18px;
+              border-radius: 15px;
+              border:1px solid white;
+          }
+        }
+      }
+    }
+  }
+} 
+
+.contact-form-container{
+  width: 100%;
+  form{
+    width: 100%;
+    padding:100px;
+  label{
+    width: 100%;
+    background-color: #1c1c20;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 8px 0;
+    text-indent: 3px;
+    span{
+      width: 100%;
+    input[type=email], input[type=text], input[type=tel]{
+      background-color: #1c1c20;
+      border-top: none;
+      border-right: none;
+      width: 100%;
+      border-left: none;
+      border-bottom: 1px solid white; 
+      color: white;
+      &:focus{
+        box-shadow: none;
+        outline: none;
+      } 
+    }
+    textarea{
+      background-color: #1c1c20;
+      border-top: none;
+      border-right: none;
+      width: 100%;
+      border-left: none;
+      border: 1px solid white; 
+      color: white;
+      height: 200px;
+      padding: 10px;
+      &:focus{
+        box-shadow: none;
+        outline: none;
+      } 
+    }
+   
+    }
+    }
+    .wpcf7-form-control-wrap{
+      .wpcf7-acceptance{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        span{
+        font-family: 'Jost';
+        font-weight: 400;
+        width: 100%;
+        margin: 0;
+        padding: 10px 0px 0px;
+        text-align: center;
+        font-size: 18px;
+        a{
+          font-weight: 600;
+          color:white;
+        }
+        input{
+          display: none;
+        }
+  
+          input:checked + span:before {
+            max-width: 18px;
+            min-width: 18px;
+            border:1px solid white;
+            background-color: #fff;
+          }
+    
+          input:checked + span:after {
+            content: "";  
+          }
+          .wpcf7-list-item-label {
+            position: relative;
+            display: flex;
+            flex-flow: row;
+            align-items: center; 
+            cursor: pointer;
+            justify-content: center;
+            &:before {
+                margin-right: 18px;
+                content: '';
+                display: inline-block;
+                min-width:18px;
+                transition: all 0.2s ease;
+                min-height: 18px;
+                max-width:18px;
+                max-height: 18px;
+                border-radius: 15px;
+                border:1px solid white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
