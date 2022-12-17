@@ -224,12 +224,12 @@ export default {
  
     /* HOME MEDIA SECTION TRANSFORM FROM BOTTOM*/
 
-      gsap.from('#home-contact', {
+      gsap.from('#home-7', {
         translateY: '-100%',
-      })
-      gsap.to('#home-contact', {
+      }) 
+      gsap.to('#home-7', {
         scrollTrigger: {
-          trigger: '#home-contact',
+          trigger: '#home-7',
           scrub: true,
           start: 'top bottom',
           end: 'bottom top',

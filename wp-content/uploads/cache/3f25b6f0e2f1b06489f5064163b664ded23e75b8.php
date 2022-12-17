@@ -1,6 +1,9 @@
 <?php $__env->startSection('content'); ?>
   <?php echo $__env->make('partials.page-header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
+  <section id="blog-3" data-scroll-section>
+    <div class="container-fluid">
+        <div class="row">   
   <?php if(!have_posts()): ?>
     <div class="alert alert-warning">
       <?php echo e(__('Sorry, no results were found.', 'sage')); ?>
@@ -16,6 +19,9 @@
 
   <?php echo get_the_posts_navigation(); ?>
 
+  </div>
+  </div>
+  </section>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

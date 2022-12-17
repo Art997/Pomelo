@@ -5,8 +5,8 @@
                 <div class="col-xl-10" >
                     <h2 class="contact-first-text"  >
                         <span data-scroll  >Kontakt</span> 
-                        <span data-scroll >nami</span>
                         <span data-scroll  >z</span> 
+                        <span data-scroll >nami</span>
                         <br>
                         <span data-scroll  >to </span>
                         <span data-scroll  >pierwszy</span> 

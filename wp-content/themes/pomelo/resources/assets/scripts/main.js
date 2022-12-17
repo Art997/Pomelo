@@ -11,6 +11,10 @@ import home from './routes/home';
 import about from './routes/about';
 import contact from './routes/contact';
 import blog from './routes/blog';
+import category from './routes/category';
+import tag from './routes/tag';
+import singlePost from './routes/postTemplateDefault';
+
 
 
 /** Populate Router instance with DOM routes */
@@ -23,6 +27,9 @@ const routes = new Router({
   about,
   contact,
   blog,
+  category,
+  tag,
+  singlePost,
 });
 
 // Load Events

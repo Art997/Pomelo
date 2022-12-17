@@ -1,9 +1,30 @@
+<div class="col-xl-12"  data-scroll>
 <article <?php post_class() ?>>
-  <header>
-    <h2 class="entry-title"><a href="<?php echo e(get_permalink()); ?>"><?php echo get_the_title(); ?></a></h2>
-    <?php echo $__env->make('partials/entry-meta', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-  </header>
-  <div class="entry-summary">
-    <?php the_excerpt() ?>
-  </div>
+  
+    <div class="post-rest-container">
+        <a href="<?php echo the_permalink(); ?>" class="landing-blog-a">
+            <p class="landing-blog-p">
+                <?php echo the_title(); ?>
+
+            </p>
+        </a>
+        <div class="category-container">
+            <div class="category">
+                <?php echo the_category(); ?>
+
+            </div>
+            <div class="tags">
+                <?php
+                $post_tags = get_the_tags();
+                if ( ! empty( $post_tags ) ) {
+                    foreach( $post_tags as $post_tag ) {
+                        echo '<a href="' . get_tag_link( $post_tag ) . '">' . $post_tag->name . ' </a>';
+                    }
+                }   
+            ?>
+            </div>
+        </div>   
+    </div>         
+
 </article>
+</div>

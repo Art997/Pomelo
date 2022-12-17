@@ -156,25 +156,25 @@
         </div>
     </div>
 </section>
-<section id="home-7" data-scroll-section>
-    <div id="home-contact">
+<section id="home-7" >
+    <div id="home-contact" data-scroll-section>
         <div class="row" >
             <div class="col-xl-3" data-scroll data-scroll-speed="1">
                 <div class="contact-single-item-container">
                     <a href="#">Behance</a>
-                    <div class="rope" data-scroll data-scroll-offset="60%"></div>
+                    <div class="rope" data-scroll data-scroll-offset="40%"></div>
                 </div>
                 <div class="contact-single-item-container">
                     <a href="#">Youtube</a>
-                    <div class="rope" data-scroll data-scroll-offset="70%"></div>
+                    <div class="rope" data-scroll data-scroll-offset="41%"></div>
                 </div>
                 <div class="contact-single-item-container">
                     <a href="#">Facebook</a>
-                    <div class="rope" data-scroll data-scroll-offset="80%"></div>
+                    <div class="rope" data-scroll data-scroll-offset="42%"></div>
                 </div>
                 <div class="contact-single-item-container">
                     <a href="#">Instagram</a>
-                    <div class="rope" data-scroll data-scroll-offset="90%"></div>
+                    <div class="rope" data-scroll data-scroll-offset="43%"></div>
                 </div>
             </div>
             <div class="col-xl-9" data-scroll data-scroll-speed="2">
