@@ -41,11 +41,11 @@
 </section>
 <section id="about-3" data-scroll-section>
     <div class="container-fluid" id="about-second-transform">
-        <div class="row slide-from-left-right-about">
-            <div class="col-xl-8 image-horizontal-about-list about-image-horizontal" data-scroll-speed="1.5" id="about-left-one">
+        <div class="row slide-from-left-right-about" data-scroll>
+            <div class="col-xl-8 image-horizontal-about-list about-image-horizontal" id="about-left-one">
                 <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt="">
             </div>
-            <div class="col-xl-4 text-horizontal-about-list" data-scroll data-scroll-speed="1.8" id="about-right-one">
+            <div class="col-xl-4 text-horizontal-about-list" id="about-right-one">
                 <h2>Lorem ipsum</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
             </div>

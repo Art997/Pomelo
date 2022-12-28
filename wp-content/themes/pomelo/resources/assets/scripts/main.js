@@ -14,6 +14,7 @@ import blog from './routes/blog';
 import category from './routes/category';
 import tag from './routes/tag';
 import singlePost from './routes/postTemplateDefault';
+import archiveOffer from './routes/offer';
 
 
 
@@ -30,6 +31,7 @@ const routes = new Router({
   category,
   tag,
   singlePost,
+  archiveOffer,
 });
 
 // Load Events

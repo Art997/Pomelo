@@ -7,6 +7,7 @@
                         <span data-scroll  >Kontakt</span> 
                         <span data-scroll  >z</span> 
                         <span data-scroll >nami</span>
+                       
                         <br>
                         <span data-scroll  >to </span>
                         <span data-scroll  >pierwszy</span> 

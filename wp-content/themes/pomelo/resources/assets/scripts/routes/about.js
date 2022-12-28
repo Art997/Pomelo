@@ -37,10 +37,6 @@ export default {
     } );
 
 
-    ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
-    ScrollTrigger.refresh();
-
-
     const header = document.querySelector('#site-header');
     const headerHolder = document.querySelector('.header-holder');
     const headerHeightTop = document.querySelector('.container-logo-hidden-scroll');
@@ -65,14 +61,15 @@ export default {
     /* END ALL PAGE NAVBAR FIXED */
 
     /* ABOUT FIRST SECTION TRANSFORM */
+      const aboutTimelineOne = gsap.timeline();
 
-    gsap.from('#about-first-transform', {
+    aboutTimelineOne.fromTo('#about-first-transform', {
       translateY: '-80%',
-    })
-    gsap.to('#about-first-transform', {
+    },
+    {
       scrollTrigger: {
         trigger: '#about-first-transform',
-        scrub: true,
+        scrub: 1,
         start: 'top bottom',
         end: 'bottom top',
       },
@@ -82,93 +79,76 @@ export default {
     /* END ABOUT FIRST SECTION TRANSFORM */
     /* ABOUT SECOND SECTION TRANSFORM */
 
-    gsap.from('#about-second-transform', {
-      translateY: '-100%',
-    })
-    gsap.to('#about-second-transform', {
-      scrollTrigger: {
-        trigger: '#about-second-transform',
-        scrub: true,
-        start: 'top bottom',
-        end: 'bottom top',
-      },
-      translateY: '0%',
-    })
+    const aboutTimelineSectond = gsap.timeline({ ease: 'power2.out'});
 
-    gsap.from('#about-left-one', {
+    aboutTimelineSectond.fromTo('#about-left-one', {
       translateX: '-100%',
-    })
-    gsap.to('#about-left-one', {
+    },{
       scrollTrigger: {
         trigger: '#about-left-one',
-        scrub: true,
+        scrub: 1,
         start: 'top bottom',
-        end: 'bottom top',
+        end: 'bottom 70%',
       },
-      translateX: '0%',
+      translateX: '0%', 
     })
 
-    gsap.from('#about-right-one', {
+    .fromTo('#about-right-one', {
       translateX: '100%',
-    })
-    gsap.to('#about-right-one', {
+    },{
       scrollTrigger: {
         trigger: '#about-right-one',
-        scrub: true,
+        scrub: 1,
         start: 'top bottom',
-        end: 'bottom top ',
+        end: 'bottom 70%',
       },
       translateX: '0%',
     })
 
-    gsap.from('#about-left-two', {
+    .fromTo('#about-left-two', {
       translateX: '-100%',
-    })
-    gsap.to('#about-left-two', {
+    },{
       scrollTrigger: {
         trigger: '#about-left-two',
-        scrub: true,
+        scrub: 1,
         start: 'top bottom',
-        end: 'bottom top ',
+        end: 'center 70%',
       },
       translateX: '0%',
     })
-
-    gsap.from('#about-right-two', {
+   
+    .fromTo('#about-right-two', {
       translateX: '100%',
-    })
-    gsap.to('#about-right-two', {
+    },{
       scrollTrigger: {
         trigger: '#about-right-two',
-        scrub: true,
+        scrub: 1,
         start: 'top bottom',
-        end: 'bottom top ',
+        end: 'center 70%',
       },
       translateX: '0%',
     })
-
-    gsap.from('#about-left-three', {
+  
+    .fromTo('#about-left-three', {
       translateX: '-100%',
-    })
-    gsap.to('#about-left-three', {
+    },{
       scrollTrigger: {
         trigger: '#about-left-three',
-        scrub: true,
+        scrub: 1,
         start: 'top bottom',
-        end: 'bottom top ',
+        end: 'center 70%',
       },
       translateX: '0%',
     })
-
-    gsap.from('#about-right-three', {
+  
+    .fromTo('#about-right-three', {
       translateX: '100%',
-    })
-    gsap.to('#about-right-three', {
+    },{
       scrollTrigger: {
         trigger: '#about-right-three',
-        scrub: true,
+        scrub: 1,
         start: 'top bottom',
-        end: 'bottom top ',
+        end: 'center 70%',
       },
       translateX: '0%',
     })
@@ -235,5 +215,8 @@ export default {
 
     /* END ABOUT SECOND SECTION TRANSFORM */
 
+    
+    ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
+    ScrollTrigger.refresh();
   },
 };

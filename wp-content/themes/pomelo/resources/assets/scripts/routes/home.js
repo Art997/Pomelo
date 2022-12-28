@@ -224,14 +224,13 @@ export default {
  
     /* HOME MEDIA SECTION TRANSFORM FROM BOTTOM*/
 
-      gsap.from('#home-7', {
-        translateY: '-100%',
-      }) 
-      gsap.to('#home-7', {
+    const timelineHomeFirts = gsap.timeline();
+
+      timelineHomeFirts.to('#home-contact', {
         scrollTrigger: {
-          trigger: '#home-7',
+          trigger: '#home-contact',
           scrub: true,
-          start: 'top bottom',
+          start: 'bottom bottom',
           end: 'bottom top',
         },
         translateY: '0%',
@@ -241,14 +240,15 @@ export default {
 
       /* REALIZATION TRANSFORM */
 
-      gsap.from('.offer-1', {
+      const timelineHomeSecond = gsap.timeline();
+
+      timelineHomeSecond.fromTo('.offer-1', {
         translateY: 0,
         rotate: 0,
-      })
-      gsap.to('.offer-1', {
+      }, {
         scrollTrigger: {
           trigger: '.offer-1',
-          scrub: true,
+          scrub: 1,
           start: 'top bottom',
           end: 'bottom center',
         },
@@ -258,14 +258,13 @@ export default {
 
       /* offer-2*/
 
-      gsap.from('.offer-2', {
+      .fromTo('.offer-2', {
         translateY: 0,
         rotate: 0,
-      })
-      gsap.to('.offer-2', {
+      }, {
         scrollTrigger: {
           trigger: '.offer-2',
-          scrub: true,
+          scrub: 1,
           start: 'top bottom',
           end: 'bottom center',
         },
@@ -275,31 +274,29 @@ export default {
 
       /* offer-4*/
 
-      gsap.from('.offer-4', {
+      .fromTo('.offer-4', {
         translateY: 0,
         rotate: 0,
-      })
-      gsap.to('.offer-4', {
+      },{
         scrollTrigger: {
-        trigger: '.offer-4',
-        scrub: true,
-        start: 'top bottom',
-        end: 'bottom center',
-      },
-      translateY: '-10%',
-      rotate: '-15deg',
+          trigger: '.offer-4',
+          scrub: 1,
+          start: 'top bottom',
+          end: 'bottom center',
+        },
+        translateY: '-10%',
+        rotate: '-15deg',
       })
 
-             /* offer-5*/
+       /* offer-5*/
 
-      gsap.from('.offer-5', {
+      .fromTo('.offer-5', {
         translateY: 0,
         rotate: 0,
-      })
-      gsap.to('.offer-5', {
+      },{
         scrollTrigger: {
           trigger: '.offer-5',
-          scrub: true,
+          scrub: 1,
           start: 'top bottom',
           end: 'bottom center',
         },
@@ -308,19 +305,18 @@ export default {
       })
       /* overrlay-offer*/
 
-      gsap.from('.overlay-hr', {
+      .fromTo('.overlay-hr', {
         borderRadius: 0,
-      })
-      gsap.to('.overlay-hr', {
+      },{
         scrollTrigger: {
           trigger: '.overlay-hr',
-          scrub: true,
+          scrub: 1,
           start: 'top bottom',
           end: 'bottom center',
         },
         borderRadius: '50%',
       })
-      
+
     /* END REALIZATION TRANSFORM */
 
     /* END HOME */

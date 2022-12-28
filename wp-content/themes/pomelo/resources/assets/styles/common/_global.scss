@@ -8,6 +8,7 @@ body{
         height: 100%;
         .container-fluid{
             padding:0 130px;
+            height: 100%;
             .row{
                 height: 100%;
             }
@@ -42,3 +43,19 @@ body p::-moz-selection, h1::-moz-selection, h2::-moz-selection, h3::-moz-selecti
     [data-scroll-container] {
     perspective: 999999px !important;
   }
+
+  html.has-scroll-smooth {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+   }
+   
+   [data-scroll-container] {
+    perspective: 1px;
+   }
+   
+   [data-scroll-container],
+   [data-scroll-section] {
+    transform-style: preserve-3d;
+    will-change: transform;
+   }
+

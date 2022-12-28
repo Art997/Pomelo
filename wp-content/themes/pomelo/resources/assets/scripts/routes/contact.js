@@ -1,44 +1,42 @@
 import LocomotiveScroll from 'locomotive-scroll';
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 export default {
-  init() {
+  init() { 
+
     gsap.registerPlugin(ScrollTrigger);
 
-    ScrollTrigger.defaults({
-      scroller: '[data-scroll-container]',
-      markers: false,
-    });
- 
     const scrollNav = new LocomotiveScroll({
       el: document.querySelector('[data-scroll-container]'),
       smooth: true,
       getSpeed: true,
       getDirection: true,
+      multiplier: 1.0,
       // reloadOnContextChange:true, 
     });
 
-    // Update scroll position
-    scrollNav.on( 'scroll', ( instance ) => {
-        ScrollTrigger.update();
-        document.documentElement.setAttribute( 'data-scrolling', instance.direction );
+    scrollNav.on('scroll', () => {
+      ScrollTrigger.update();
+     });
+
+    // tell ScrollTrigger to use these proxy methods for the ".smooth-scroll" element since Locomotive Scroll is hijacking things
+
+    ScrollTrigger.scrollerProxy('[data-scroll-container]', {
+      scrollTop(value) {
+        return arguments.length ? scrollNav.scrollTo(value, 0, 0) : scrollNav.scroll.instance.scroll.y;
+      }, // we don't have to define a scrollLeft because we're only scrolling vertically.
+      getBoundingClientRect() {
+        return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
+      },
+      // LocomotiveScroll handles things completely differently on mobile devices - it doesn't even transform the container at all! So to get the correct behavior and avoid jitters, we should pin things with position: fixed on mobile. We sense it by checking to see if there's a transform applied to the container (the LocomotiveScroll-controlled element).
+      pinType: document.querySelector('[data-scroll-container]').style.transform ? 'transform' : 'fixed',
     });
 
-    // Scroll position for ScrollTrigger
-    ScrollTrigger.scrollerProxy( '[data-scroll-container]', {
-        scrollTop( value ) {
-            return arguments.length ? scrollNav.scrollTo( value, 0, 0 ) : scrollNav.scroll.instance.scroll.y;
-        },
-        getBoundingClientRect() {
-            return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
-        },
-        pinType: document.querySelector( '[data-scroll-container]' ).style.transform ? 'transform' : 'fixed',
-    } );
-
-
-    ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
-    ScrollTrigger.refresh();
-
+    ScrollTrigger.create({
+      scroller: '[data-scroll-container]',
+      markers: false,
+    });
+ 
 
     const header = document.querySelector('#site-header');
     const headerHolder = document.querySelector('.header-holder');
@@ -65,23 +63,27 @@ export default {
 
     /* contact-slide frol right */
 
-    gsap.from('#contact-2', {
+    const tl = gsap.timeline();
+
+    tl.set('#contact-2', {
       translate: '100%',
-      // translateY: '-100%',
+      // translate3d: 0,
     })
-    gsap.to('#contact-2', {
+    .to('#contact-2', {
       scrollTrigger: {
         trigger: '#contact-2',
-        scrub: true,
+        scrub: 1,
         start: 'top top-=100',
         end: '+=900',
       },
       translate: '0%',
-      translate3d: 0,
       // translateY: '-100%',
     })
 
     /* END CONTACT SECOND SECTION TRANSFORM */
-
+  
+    ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
+    ScrollTrigger.refresh();
+  
   },
 };

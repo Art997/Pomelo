@@ -38,8 +38,8 @@ section#contact-1{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
+        border: 2px solid black;
+        // border-right: 2px solid black;
         .contact-vertical-text{
             writing-mode: vertical-rl;
             text-orientation: mixed;
@@ -145,9 +145,9 @@ section#contact-3{
     .col-xl-6{
         height: 100%;
         display: flex;
-        display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         h2{
             font-family: 'Crimson Pro';
             font-style: italic;

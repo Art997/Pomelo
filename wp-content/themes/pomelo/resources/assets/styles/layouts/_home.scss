@@ -347,10 +347,12 @@ section#home-6{
 
 section#home-7{
     position: relative;
-    height: 70vh;
+    height: 100vh;
+    
     #home-contact{
         background-color: #1c1c20;
-        min-height: 70vh;
+        min-height: 100vh;
+        transform: translateY(-90%);
         .col-xl-3{ 
             padding:300px 0px 200px; 
             .contact-single-item-container{
@@ -422,7 +424,7 @@ section#home-7{
                 background: #FFEB38; ;
                 color: black;
                 clip-path: auto(13% at 85% 50%);
-                animation: circleMove 20s ease-in-out infinite;
+                animation: circleMove 15s ease-in-out infinite;
                 padding-left:300px;
                 font-weight: 500;
                 font-size: 60px;
@@ -451,7 +453,7 @@ section#home-7{
 section#home-8{
     position: relative; 
     .col-xl-6{
-        padding-top: 500px;
+        padding-top: 200px;
         h2{
             font-family: 'Crimson Pro';
             font-style: normal;
