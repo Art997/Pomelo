@@ -92,4 +92,5 @@ Container::getInstance()
     }, true);
 
     include_once 'pagination-blog.php';
-    include_once 'offer-type-post.php';
+    include_once 'offer-post-type.php';
+    include_once 'realization-post-type.php';

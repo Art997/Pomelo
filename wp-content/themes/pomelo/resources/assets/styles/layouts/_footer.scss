@@ -138,6 +138,8 @@ footer{
         align-content: center;
         padding-right: 200px;
         padding-bottom: 100px;
+        position: relative;
+        z-index: 999;
         li{
             text-align: left;
             a{
@@ -174,4 +176,92 @@ section#footer-2{
         color: #000000;
         padding: 10px 0px 0px 80px;
     }
+}
+
+@media screen and(max-width:1600px){
+    footer .footer-list-container .footer-list .elipse-footer{
+        width: 300px;
+        height: 300px;
+    }
+    .footer-form label input[type=email], .footer-form label input[type=text], .footer-form label input[type=tel]{
+        width: 100%;
+    }
+    footer .footer-media-section .footer-single-media .rope{
+        width: 120%;
+    }
+    footer .overlay-footer img{
+        max-width: 80%;
+    }    
+    footer .overlay-footer{
+        text-align: right;
+    }
+}
+
+@media screen and(max-width: 1300px){
+
+    footer .overlay-footer img{
+        max-width: 50%;
+        text-align: right;
+    }
+}
+
+@media screen and(max-width:1199px){
+    .elipse-footer{
+        display: none;
+    }
+    footer .image-1, footer .image-2{
+        display: none;
+    }
+    .footer-form{
+        text-align: center;
+    }
+    .footer-form label{
+        text-align: left;
+    }
+    footer .footer-media-section .footer-single-media{
+        transform: translate(0);
+        text-align: center;
+        padding: 20px 0;
+    }
+    footer .footer-media-section .footer-single-media a{
+        border:1px solid white;
+        padding: 10px;
+    }
+    footer .footer-media-section .footer-single-media .rope{
+        width: 100%;
+        transform: translate(0);
+        display: none; 
+    }
+    footer .logo-footer, footer .contact-a-footer{
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    footer .contact-a-footer{
+        padding-left: 0;
+    }
+    footer #menu-footer-menu{
+        padding-top: 60px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 60px;
+    }
+    footer .overlay-footer{
+        display: none;
+    }
+    section#footer-2 p{
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+@media screen and(max-width:500px){
+    footer .footer-media-section .footer-single-media a{
+        font-size: 25px;
+    }
+    footer .contact-a-footer a{
+        font-size: 23px;
+    }
+    footer .contact-a-footer{
+        padding-left: 15px;
+    } 
 }

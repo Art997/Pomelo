@@ -57,17 +57,17 @@
         <div class="row">
             <div class="col-xl-8">
                 <div class="row home-4-section-project" >
-                    <div class="col-xl-4">
+                    <div class="col-md-4">
                         <p class="number repear" data-scroll data-scroll-speed="-1"  data-scroll-target="#home-4">01</p>
                         <h2 class="repear" data-scroll data-scroll-speed="-2">Pomysł</h2>
                         <p data-scroll data-scroll-speed="1.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-md-4">
                         <p class="number repear" data-scroll data-scroll-speed="0.5">02</p>
                         <h2 class="repear" data-scroll data-scroll-speed="1.5">Projekt</h2>
                         <p data-scroll data-scroll-speed="2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-md-4">
                         <p class="number repear" data-scroll data-scroll-speed="-2">03</p>
                         <h2 class="repear" data-scroll data-scroll-speed="-2.5" >Relizacja</h2>
                         <p data-scroll data-scroll-speed="2" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
@@ -153,28 +153,26 @@
 <section id="home-7" data-scroll-section>
     <div id="home-contact" >
         <div class="row" >
-            <div class="col-xl-3" data-scroll data-scroll-speed="1">
+            <div class="col-md-3" data-scroll data-scroll-speed="1">
                 <div class="contact-single-item-container">
                     <a href="#">Behance</a>
-                    <div class="rope" data-scroll data-scroll-offset="96%"></div>
+                    <div class="rope" data-scroll data-scroll-offset="80%"></div>
                 </div>
                 <div class="contact-single-item-container">
                     <a href="#">Youtube</a>
-                    <div class="rope" data-scroll data-scroll-offset="97%"></div>
+                    <div class="rope" data-scroll data-scroll-offset="85%"></div>
                 </div>
                 <div class="contact-single-item-container">
                     <a href="#">Facebook</a>
-                    <div class="rope" data-scroll data-scroll-offset="98%"></div>
+                    <div class="rope" data-scroll data-scroll-offset="90%"></div>
                 </div>
                 <div class="contact-single-item-container">
                     <a href="#">Instagram</a>
-                    <div class="rope" data-scroll data-scroll-offset="99%"></div>
+                    <div class="rope" data-scroll data-scroll-offset="95%"></div>
                 </div>
             </div>
-            <div class="col-xl-9" data-scroll data-scroll-speed="2">
-                
-                
-                <p class="p-home-7">Wszystkie realizacje spod naszego szyldu znajdziecie na naszych profilach. Dołącz do naszej małe <a href="">galerii sztuki</a> wraz ze swoją stroną i logo.</p>
+            <div class="col-md-9" data-scroll data-scroll-speed="2">
+                <p class="p-home-7">Wszystkie realizacje spod naszego szyldu znajdziecie na naszych profilach. Dołącz do naszej małej <a href="">galerii sztuki</a> wraz ze swoją stroną i logo.</p>
                 <div class="p-home-7-overlay" >Wszystkie realizacje spod naszego szyldu znajdziecie na naszych profilach. Dołącz do naszej małej<a href="#"> galerii sztuki </a>wraz ze swoją stroną i logo.</div>
             </div>
         </div>

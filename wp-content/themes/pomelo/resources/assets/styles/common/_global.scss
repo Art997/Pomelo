@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&display=swap');
+
+$color-main: #FDC800;
+
 body{
-    overflow-x: hidden;
+    overflow-x: hidden; 
     background-color: #F2E9E1;
     font-family: 'Jost', sans-serif;
     section{
@@ -59,3 +62,14 @@ body p::-moz-selection, h1::-moz-selection, h2::-moz-selection, h3::-moz-selecti
     will-change: transform;
    }
 
+@media screen and(max-width:1300px){
+  body section .container-fluid{
+    padding: 0 50px;
+  } 
+}
+
+@media screen and(max-width:620px){
+  body section .container-fluid{
+    padding: 0 20px;
+  } 
+}

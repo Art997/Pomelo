@@ -110,6 +110,8 @@ export default {
       // reloadOnContextChange:true, 
     });
 
+    scrollNav.update();
+   
     // Update scroll position
     scrollNav.on( 'scroll', ( instance ) => {
         ScrollTrigger.update();
@@ -127,9 +129,6 @@ export default {
         pinType: document.querySelector( '[data-scroll-container]' ).style.transform ? 'transform' : 'fixed',
     } );
 
-
-    ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
-    ScrollTrigger.refresh();
 
     /* END REGISTER */
 
@@ -149,13 +148,13 @@ export default {
         if(instance.direction === 'down' ){
           if(instance.scroll.y > headerHeight){
             header.classList.add('sticked');	    
-            headerHolder.classList.add('height-sticked');	    
+            headerHolder.classList.add('height-sticked'); 
           }
         }
         if(instance.direction === 'up' ){
           if(instance.scroll.y <= headerHeight){
             header.classList.remove('sticked');
-            headerHolder.classList.remove('height-sticked');	
+            headerHolder.classList.remove('height-sticked');
           }
         } 
 
@@ -223,106 +222,128 @@ export default {
     /* END HOME COLOR TEXT CHANGE ON SCROLL*/
  
     /* HOME MEDIA SECTION TRANSFORM FROM BOTTOM*/
-
     const timelineHomeFirts = gsap.timeline();
 
-      timelineHomeFirts.to('#home-contact', {
-        scrollTrigger: {
-          trigger: '#home-contact',
-          scrub: true,
-          start: 'bottom bottom',
-          end: 'bottom top',
-        },
-        translateY: '0%',
-      })
+    const timelineHomeSecond = gsap.timeline();
 
-      /* END HOME MEDIA SECTION TRANSFORM FROM BOTTOM*/
+    ScrollTrigger.matchMedia({
+      // const timelineHomeFirts = gsap.timeline();
+      // desktop
+      '(min-width: 1021px)': function() {
+        // setup animations and ScrollTriggers for screens over 800px wide (desktop) here...
+        // ScrollTriggers will be reverted/killed when the media query doesn't match anymore.
+          timelineHomeFirts.to('#home-contact', {
+            scrollTrigger: {
+              trigger: '#home-contact',
+              scrub: true,
+              start: 'bottom bottom',
+              end: 'bottom top',
+            },
+            translateY: '0%',
+          })
+          scrollNav.update();
 
-      /* REALIZATION TRANSFORM */
+          
+      }, 
+      
+      // mobile
+      '(max-width: 1020px)': function() {
+        // Any ScrollTriggers created inside these functions are segregated and get
+        // reverted/killed when the media query doesn't match anymore. 
+        timelineHomeFirts.kill()
+      }, 
+      
+      // all 
+      '(min-width: 620px)': function(){
 
-      const timelineHomeSecond = gsap.timeline();
-
-      timelineHomeSecond.fromTo('.offer-1', {
-        translateY: 0,
-        rotate: 0,
-      }, {
-        scrollTrigger: {
-          trigger: '.offer-1',
-          scrub: 1,
-          start: 'top bottom',
-          end: 'bottom center',
-        },
-        translateY: '-50%',
-        rotate: '30deg',
-      })
-
-      /* offer-2*/
-
-      .fromTo('.offer-2', {
-        translateY: 0,
-        rotate: 0,
-      }, {
-        scrollTrigger: {
-          trigger: '.offer-2',
-          scrub: 1,
-          start: 'top bottom',
-          end: 'bottom center',
-        },
-        translateY: '-10%',
-        rotate: '15deg',
-      })
-
-      /* offer-4*/
-
-      .fromTo('.offer-4', {
-        translateY: 0,
-        rotate: 0,
-      },{
-        scrollTrigger: {
-          trigger: '.offer-4',
-          scrub: 1,
-          start: 'top bottom',
-          end: 'bottom center',
-        },
-        translateY: '-10%',
-        rotate: '-15deg',
-      })
-
-       /* offer-5*/
-
-      .fromTo('.offer-5', {
-        translateY: 0,
-        rotate: 0,
-      },{
-        scrollTrigger: {
-          trigger: '.offer-5',
-          scrub: 1,
-          start: 'top bottom',
-          end: 'bottom center',
-        },
-        translateY: '-50%',
-        rotate: '-30deg',
-      })
-      /* overrlay-offer*/
-
-      .fromTo('.overlay-hr', {
-        borderRadius: 0,
-      },{
-        scrollTrigger: {
-          trigger: '.overlay-hr',
-          scrub: 1,
-          start: 'top bottom',
-          end: 'bottom center',
-        },
-        borderRadius: '50%',
-      })
-
-    /* END REALIZATION TRANSFORM */
+        timelineHomeSecond.fromTo('.offer-1', {
+          translateY: 0,
+          rotate: 0,
+        }, {
+          scrollTrigger: {
+            trigger: '.offer-1',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'bottom center',
+          },
+          translateY: '-50%',
+          rotate: '30deg',
+        })
+  
+        /* offer-2*/
+  
+        .fromTo('.offer-2', {
+          translateY: 0,
+          rotate: 0,
+        }, {
+          scrollTrigger: {
+            trigger: '.offer-2',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'bottom center',
+          },
+          translateY: '-10%',
+          rotate: '15deg',
+        })
+  
+        /* offer-4*/
+  
+        .fromTo('.offer-4', {
+          translateY: 0,
+          rotate: 0,
+        },{
+          scrollTrigger: {
+            trigger: '.offer-4',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'bottom center',
+          },
+          translateY: '-10%',
+          rotate: '-15deg',
+        })
+  
+         /* offer-5*/
+  
+        .fromTo('.offer-5', {
+          translateY: 0,
+          rotate: 0,
+        },{
+          scrollTrigger: {
+            trigger: '.offer-5',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'bottom center',
+          },
+          translateY: '-50%',
+          rotate: '-30deg',
+        })
+        /* overrlay-offer*/
+  
+        .fromTo('.overlay-hr', {
+          borderRadius: 0,
+        },{
+          scrollTrigger: {
+            trigger: '.overlay-hr',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'bottom center',
+          },
+          borderRadius: '50%',
+        })
+        scrollNav.update();
+      },
+      'all': function() {
+        // ScrollTriggers created here aren't associated with a particular media query,
+        // so they persist.
+        
+      },
+      
+    });
+    
 
     /* END HOME */
-
-
+    ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
+    ScrollTrigger.refresh();
   },
-
 };
  

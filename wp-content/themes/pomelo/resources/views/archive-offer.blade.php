@@ -102,39 +102,71 @@
   </section>
   <section id="offer-archive-4" data-scroll-section>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-xl-12">
-                <h2>Social <span>media</span></h2>
-            </div>
-            <div class="col-xl-6">
-                <h3>Oferta</h3>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-            </div>
-            <div class="col-xl-3">
-                <div class="container-socialmedia-offer">
-                    <h3>Facebook</h3>
+        <div class="row" id="offer-sticky-2">
+            <div class="offer-sticky-socialmedia" data-scroll data-scroll-sticky data-scroll-target="#offer-sticky-2">
+                <div class="col-xl-12 scale-social ">
+                    <h2 class="floating-1">Social <span>media</span></h2>
+                </div> 
+                <div class="col-xl-6 scale-social" >
+                    <h3>Oferta</h3>
+                    <p >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <div class="container-classic-button floating-3">
+                        <a href="#" class="button-clasic">Szczegóły</a>
+                        <span class="submit-bg"></span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xl-3">
-                <div class="container-socialmedia-offer">
-                    <h3>Instagram</h3>
+                <div class="col-xl-3 scale-social" >
+                    <div class="container-socialmedia-offer floating-2">
+                        <h3>Facebook</h3>
+                    </div>
                 </div>
-            </div>
+                <div class="col-xl-3 scale-social" >
+                    <div class="container-socialmedia-offer floating-4">
+                        <h3 >Instagram</h3>
+                    </div>
+                </div>              
+            </div>  
         </div>
     </div>
   </section>
   <section id="offer-archive-5" data-scroll-section>
+    <div class="moving-text-container">
+        <p>
+            Copywriting teksty 
+        </p>
+        <p>
+            Copywriting teksty 
+        </p>
+        <p>
+            Copywriting teksty 
+        </p>
+    </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-12">copywriting teksty itp</div>
-            <div class="col-xl-6">
-                <h2>Copywriting</h2>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="col-xl-6 copy-offer">
+                <h2 data-scroll data-scroll-speed="1.5">Copywriting</h2>
+                <p data-scroll data-scroll-speed="2.2"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="container-classic-button floating-3" data-scroll data-scroll-speed="1.8">
+                    <a href="#" class="button-clasic">Szczegóły</a>
+                    <span class="submit-bg"></span>
+                </div>
+                
             </div>
-            <div class="col-xl-12">copywriting teksty itp</div>
+           
         </div>
+    </div>
+    <div class="moving-text-container-2">
+        <p>
+            Copywriting teksty 
+        </p>
+        <p>
+            Copywriting teksty 
+        </p>
+        <p>
+            Copywriting teksty 
+        </p>
     </div>
   </section>
 @endsection

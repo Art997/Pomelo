@@ -98,13 +98,25 @@ export default {
         scrub: 1,
         start: 'top bottom',
         end: 'top 20%',
-        markers: true, 
       },
       opacity: 0, 
     });
 
-
-
+    const socialScales = document.querySelectorAll('.scale-social');
+    socialScales.forEach(socialScale =>{
+      gsap.from(socialScale, {
+        scrollTrigger:{
+          // trigger: '.offer-sticky-socialmedia',
+          trigger: '#offer-archive-4',
+          scrub: true,
+          start: 'top bottom',
+          // end: () => innerHeight * 2.8,
+          end: 'bottom +=110%', 
+        },
+        scale: 0.2, 
+      })
+    })
+    
     ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
     ScrollTrigger.refresh();
   },
