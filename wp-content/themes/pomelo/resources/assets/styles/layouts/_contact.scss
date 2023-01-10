@@ -186,3 +186,100 @@ section#contact-3{
         }
     }
 }
+
+
+@media screen and(max-width:1199px){
+    section#contact-1 .col-xl-2{
+        display: none; 
+    }
+    section#contact-3 .col-xl-6{
+        height: auto;
+    }
+}
+
+
+
+@media screen and(max-width:1020px){
+    section#container-contact-2 section#contact-2{
+        translate:0%;
+    }
+    section#container-contact-2{
+        transform: translateY(0) !important; 
+        height: auto;
+        z-index: 0;
+    }
+    section#contact-1{
+        height: auto;
+        padding: 100px 0;
+    }
+    section#contact-1 .contact-sticky{
+        height: auto;
+    }
+    section#contact-1 .contact-first-text{
+        padding: 0;
+    }
+    section#container-contact-2 section#contact-2{
+        height: auto; 
+    }
+    section#container-contact-2 section#contact-2 .brief-section{
+        padding: 60px 15px;
+    }
+    section#contact-3, section#contact-3 .col-xl-6{
+        height: auto;
+        padding: 40px 0;
+    }
+}
+
+@media screen and(max-width:997px){ 
+    section#container-contact-2 section#contact-2 .brief-section{
+        padding: 60px 100px;
+    }
+}
+
+@media screen and(max-width:950px){
+    section#contact-1 .contact-first-text{
+        font-size: 70px; 
+    }
+    section#contact-1 .contact-first-text .span-contact-last-child{
+        font-size: 100px; 
+        line-height: 100px;
+    }
+}
+
+@media screen and(max-width:750px){
+    .contact-form-container form{
+        padding: 50px 0;
+    }
+    section#container-contact-2 section#contact-2 .brief-section{
+        padding: 50px 15px;
+    }
+}
+
+@media screen and(max-width:550px){
+    section#contact-1 .contact-first-text{
+        font-size: 50px;
+    }
+    section#contact-1 .contact-first-text .span-contact-last-child{
+        font-size: 60px;
+        line-height: 50px;
+    }
+}
+
+@media screen and(max-width:450px){
+    section#contact-3 .col-xl-6 h2{
+        font-size: 40px; 
+    }
+    section#contact-3 .col-xl-6 h4{
+        font-size: 25px;
+    }
+}
+
+@media screen and(max-width:350px){
+    section#contact-1 .contact-first-text{
+        font-size: 40px;
+        margin: 0;
+    }
+    section#contact-1 .contact-first-text .span-contact-last-child{
+        font-size: 45px;
+    }
+}

@@ -109,8 +109,6 @@ export default {
       getDirection: true,
       // reloadOnContextChange:true, 
     });
-
-    scrollNav.update();
    
     // Update scroll position
     scrollNav.on( 'scroll', ( instance ) => {
@@ -227,11 +225,8 @@ export default {
     const timelineHomeSecond = gsap.timeline();
 
     ScrollTrigger.matchMedia({
-      // const timelineHomeFirts = gsap.timeline();
       // desktop
       '(min-width: 1021px)': function() {
-        // setup animations and ScrollTriggers for screens over 800px wide (desktop) here...
-        // ScrollTriggers will be reverted/killed when the media query doesn't match anymore.
           timelineHomeFirts.to('#home-contact', {
             scrollTrigger: {
               trigger: '#home-contact',
@@ -240,16 +235,11 @@ export default {
               end: 'bottom top',
             },
             translateY: '0%',
-          })
-          scrollNav.update();
-
-          
+          })          
       }, 
       
       // mobile
       '(max-width: 1020px)': function() {
-        // Any ScrollTriggers created inside these functions are segregated and get
-        // reverted/killed when the media query doesn't match anymore. 
         timelineHomeFirts.kill()
       }, 
       
@@ -330,17 +320,12 @@ export default {
           },
           borderRadius: '50%',
         })
-        scrollNav.update();
       },
       'all': function() {
-        // ScrollTriggers created here aren't associated with a particular media query,
-        // so they persist.
-        
       },
       
     });
     
-
     /* END HOME */
     ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
     ScrollTrigger.refresh();

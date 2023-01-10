@@ -11,11 +11,11 @@
         </div>
     </div>
   </section>
-  <section id="realization-2"  >
+  <section id="realization-2" data-scroll-section >
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-12">
-                <div class="container-category-realization" data-scroll-section>
+                <div class="container-category-realization" >
                     <ul class="realization-list">
                         <li class="realization-item realization-all">Wszystkie</li>
                         <li class="realization-item">Strony</li>
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col-xl-12">
-                <div class="gallery-realization-all unvisible single-realization-gallery" data-scroll-section>
+                <div class="gallery-realization-all unvisible single-realization-gallery" >
                     <a href="#" class="fancy-gallery-realization-2 realization-all-single-item" data-scroll>
                         <div class="gallery-image-2 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/plane-g70c228e39_1920.png')">
                             <p>Marka 2</p>

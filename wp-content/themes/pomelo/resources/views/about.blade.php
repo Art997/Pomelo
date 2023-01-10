@@ -116,7 +116,7 @@
                   </section>
 
             </div>
-            <div class="col-xl-4">
+            <div class="col-sm-4">
 
                 <section class="splide" id="splide-second-about" aria-label="Basic Structure Example" data-scroll data-scroll-speed="1.2">
                     <div class="splide__track">
@@ -134,8 +134,7 @@
                   </section>
 
             </div>
-            <div class="col-xl-8">
-
+            <div class="col-sm-8">
                 <section class="splide" id="splide-third-about" aria-label="Basic Structure Example" data-scroll data-scroll-speed="1.8">
                     <div class="splide__track">
                       <ul class="splide__list">

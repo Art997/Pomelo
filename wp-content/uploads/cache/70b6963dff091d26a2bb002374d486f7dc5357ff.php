@@ -28,13 +28,13 @@
         <section id="contact-2" data-scroll-direction="horizontal"> 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xl-9 contact-form-container" >
+                    <div class="col-lg-9 contact-form-container" >
                         
                         <?php
                             echo do_shortcode('[contact-form-7 id="48" title="Contact form"]');
                         ?>
                     </div>
-                    <div class="col-xl-3 brief-section">
+                    <div class="col-lg-3 brief-section">
                         <h2>Brief</h2>
                         <h3>Wiesz po co tu przyszedłeś i chcesz otrzymać szczegółową wycenę? Wypełnij brief a my się odezwiemy!</h3>
                         <ul>

@@ -2,13 +2,13 @@
   <section id="offer-archive-1" style="background-image: url('<?php echo the_post_thumbnail_url('large'); ?>')" data-scroll-section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-6">
+            <div class="col-lg-6">
                 <h2 data-scroll data-scroll-speed="2.0">
                     Co możemy dla Ciebie zrobić, aby <span>Twój biznes</span> się rozwijał?
                 </h2>
                 <p data-scroll data-scroll-speed="2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
             </div>
-            <div class="col-xl-6">
+            <div class="col-lg-6">
                 <div class="container-yt">
                     <a href="#">
                         <span data-scroll data-scroll-speed="1.1">
@@ -128,14 +128,12 @@
   <section id="offer-archive-5" data-scroll-section>
     <div class="moving-text-container">
         <p>
-            Copywriting teksty 
+            Copywriting teksty Copywriting teksty 
         </p>
         <p>
-            Copywriting teksty 
+            Copywriting teksty Copywriting teksty 
         </p>
-        <p>
-            Copywriting teksty 
-        </p>
+        
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -153,14 +151,12 @@
     </div>
     <div class="moving-text-container-2">
         <p>
-            Copywriting teksty 
+            Copywriting teksty Copywriting teksty 
         </p>
         <p>
-            Copywriting teksty 
+            Copywriting teksty Copywriting teksty 
         </p>
-        <p>
-            Copywriting teksty 
-        </p>
+  
     </div>
   </section>
 <?php $__env->stopSection(); ?>

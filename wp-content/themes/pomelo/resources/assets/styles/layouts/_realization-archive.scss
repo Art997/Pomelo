@@ -59,7 +59,7 @@ section#realization-2{
         height:100%;
         padding: 10px;
         overflow: hidden;
-        transition: all 0.3s ease;
+        // transition: all 0.3s ease;
         .gallery-img-list{
             width: 100%;
             height:100%;
@@ -67,7 +67,7 @@ section#realization-2{
             background-repeat: no-repeat; 
             background-position: 50%;
             overflow: hidden;
-            transition: all 0.3s ease;
+            // transition: all 0.3s ease;
             position: relative;
             p{
                 color: white;
@@ -277,8 +277,10 @@ section#realization-2{
     .unvisible{
         // visibility: hidden;
         display: none;
+        opacity: 0;
     }
     .visible{
+        opacity: 1;
        display: flex;
     }
 }
@@ -347,5 +349,135 @@ section#realization-3{
                 }
             }
         }
+    }
+}
+
+@media screen and(max-width:1450px){
+    section#realization-2{
+        padding: 0;
+    }
+}
+
+@media screen and(max-width:1199px){
+    section#realization-1 p{
+        font-size: 26px;
+    }
+}
+
+@media screen and(max-width:1020px){
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-1, section#realization-2 .gallery-realization-all .fancy-gallery-realization-3, section#realization-2 .gallery-realization-all .fancy-gallery-realization-7, section#realization-2 .gallery-realization-page .fancy-gallery-realization-7, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-3, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-7{
+        height: 700px; 
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-2, section#realization-2 .gallery-realization-all .fancy-gallery-realization-4, section#realization-2 .gallery-realization-all .fancy-gallery-realization-8, section#realization-2 .gallery-realization-all .fancy-gallery-realization-10, section#realization-2 .gallery-realization-all .fancy-gallery-realization-9, section#realization-2 .gallery-realization-page .fancy-gallery-realization-8, section#realization-2 .gallery-realization-page .fancy-gallery-realization-10, section#realization-2 .gallery-realization-page .fancy-gallery-realization-9, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-4{
+        height: 450px;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-6, section#realization-2 .gallery-realization-all .fancy-gallery-realization-5, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-6, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-5{
+        height: 600px; 
+    }
+}
+
+@media screen and(max-width:750px){
+    section#realization-1 p{
+        font-size: 24px;
+    }
+    section#realization-1 p span{
+        padding: 0 40px;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-1, section#realization-2 .gallery-realization-all .fancy-gallery-realization-3, section#realization-2 .gallery-realization-all .fancy-gallery-realization-7, section#realization-2 .gallery-realization-page .fancy-gallery-realization-7, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-3, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-7{
+        height: 500px; 
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-2, section#realization-2 .gallery-realization-all .fancy-gallery-realization-4, section#realization-2 .gallery-realization-all .fancy-gallery-realization-8, section#realization-2 .gallery-realization-all .fancy-gallery-realization-10, section#realization-2 .gallery-realization-all .fancy-gallery-realization-9, section#realization-2 .gallery-realization-page .fancy-gallery-realization-8, section#realization-2 .gallery-realization-page .fancy-gallery-realization-10, section#realization-2 .gallery-realization-page .fancy-gallery-realization-9, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-4{
+        height: 350px;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-6, section#realization-2 .gallery-realization-all .fancy-gallery-realization-5, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-6, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-5{
+        height: 400px; 
+    }
+}
+
+@media screen and(max-width:700px){
+    section#realization-3 h3{
+        font-size: 45px;
+    }
+    section#realization-3{
+        padding: 50px 0;
+    }
+    section#realization-3 .container-ul-realization ul a .number{
+        padding-right: 10px;
+    }
+}
+
+@media screen and(max-width:600px){
+    section#realization-3 .container-ul-realization ul a li .container-other-realization-single{
+        font-size: 20px;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-1, section#realization-2 .gallery-realization-all .fancy-gallery-realization-3, section#realization-2 .gallery-realization-all .fancy-gallery-realization-7, section#realization-2 .gallery-realization-page .fancy-gallery-realization-7, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-3, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-7{
+        height: 400px; 
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-2, section#realization-2 .gallery-realization-all .fancy-gallery-realization-4, section#realization-2 .gallery-realization-all .fancy-gallery-realization-8, section#realization-2 .gallery-realization-all .fancy-gallery-realization-10, section#realization-2 .gallery-realization-all .fancy-gallery-realization-9, section#realization-2 .gallery-realization-page .fancy-gallery-realization-8, section#realization-2 .gallery-realization-page .fancy-gallery-realization-10, section#realization-2 .gallery-realization-page .fancy-gallery-realization-9, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-4{
+        height: 250px;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-6, section#realization-2 .gallery-realization-all .fancy-gallery-realization-5, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-6, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-5{
+        height: 300px; 
+    }
+}
+
+@media screen and(max-width:450px){
+    section#realization-2 .gallery-realization-all .realization-all-single-item{
+        padding: 5px;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-1, section#realization-2 .gallery-realization-all .fancy-gallery-realization-3, section#realization-2 .gallery-realization-all .fancy-gallery-realization-7, section#realization-2 .gallery-realization-page .fancy-gallery-realization-7, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-3, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-7{
+        height: 450px; 
+        width: 100%;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-2, section#realization-2 .gallery-realization-all .fancy-gallery-realization-4, section#realization-2 .gallery-realization-all .fancy-gallery-realization-8, section#realization-2 .gallery-realization-all .fancy-gallery-realization-10, section#realization-2 .gallery-realization-all .fancy-gallery-realization-9, section#realization-2 .gallery-realization-page .fancy-gallery-realization-8, section#realization-2 .gallery-realization-page .fancy-gallery-realization-10, section#realization-2 .gallery-realization-page .fancy-gallery-realization-9, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-4{
+        height: 350px;
+        width: 50%; 
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-6, section#realization-2 .gallery-realization-all .fancy-gallery-realization-5, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-6, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-5{
+        height: 350px;
+        width: 50%; 
+    }
+    section#realization-2 .container-category-realization .realization-list{
+        flex-direction:column;
+        gap: 20px;
+    }
+}
+
+@media screen and(max-width:400px){
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-1, section#realization-2 .gallery-realization-all .fancy-gallery-realization-3, section#realization-2 .gallery-realization-all .fancy-gallery-realization-7, section#realization-2 .gallery-realization-page .fancy-gallery-realization-7, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-3, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-7{
+        height: 400px; 
+        width: 100%;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-2, section#realization-2 .gallery-realization-all .fancy-gallery-realization-4, section#realization-2 .gallery-realization-all .fancy-gallery-realization-8, section#realization-2 .gallery-realization-all .fancy-gallery-realization-10, section#realization-2 .gallery-realization-all .fancy-gallery-realization-9, section#realization-2 .gallery-realization-page .fancy-gallery-realization-8, section#realization-2 .gallery-realization-page .fancy-gallery-realization-10, section#realization-2 .gallery-realization-page .fancy-gallery-realization-9, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-4{
+        height: 300px;
+        width: 50%; 
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-6, section#realization-2 .gallery-realization-all .fancy-gallery-realization-5, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-6, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-5{
+        height: 300px;
+        width: 50%; 
+    }
+    section#realization-1 p{
+        font-size: 22px;
+    }
+    section#realization-1 p span{
+        padding: 0 20px;
+    }
+}
+
+@media screen and(max-width:350px){
+    section#realization-3 .container-ul-realization ul .category-other-realizations{
+        padding-left: 20px;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-1, section#realization-2 .gallery-realization-all .fancy-gallery-realization-3, section#realization-2 .gallery-realization-all .fancy-gallery-realization-7, section#realization-2 .gallery-realization-page .fancy-gallery-realization-7, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-3, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-7{
+        height: 350px; 
+        width: 100%;
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-2, section#realization-2 .gallery-realization-all .fancy-gallery-realization-4, section#realization-2 .gallery-realization-all .fancy-gallery-realization-8, section#realization-2 .gallery-realization-all .fancy-gallery-realization-10, section#realization-2 .gallery-realization-all .fancy-gallery-realization-9, section#realization-2 .gallery-realization-page .fancy-gallery-realization-8, section#realization-2 .gallery-realization-page .fancy-gallery-realization-10, section#realization-2 .gallery-realization-page .fancy-gallery-realization-9, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-4{
+        height: 250px;
+        width: 50%; 
+    }
+    section#realization-2 .gallery-realization-all .fancy-gallery-realization-6, section#realization-2 .gallery-realization-all .fancy-gallery-realization-5, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-6, section#realization-2 .gallery-realization-graph .fancy-gallery-realization-5{
+        height: 250px;
+        width: 50%; 
     }
 }

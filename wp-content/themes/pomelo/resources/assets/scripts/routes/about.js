@@ -59,99 +59,117 @@ export default {
       });
 
     /* END ALL PAGE NAVBAR FIXED */
-
+    
     /* ABOUT FIRST SECTION TRANSFORM */
-      const aboutTimelineOne = gsap.timeline();
 
-    aboutTimelineOne.fromTo('#about-first-transform', {
-      translateY: '-80%',
-    },
-    {
-      scrollTrigger: {
-        trigger: '#about-first-transform',
-        scrub: 1,
-        start: 'top bottom',
-        end: 'bottom top',
-      },
-      translateY: '0%',
-    })
-
-    /* END ABOUT FIRST SECTION TRANSFORM */
-    /* ABOUT SECOND SECTION TRANSFORM */
+    const aboutTimelineOne = gsap.timeline();
 
     const aboutTimelineSectond = gsap.timeline({ ease: 'power2.out'});
 
-    aboutTimelineSectond.fromTo('#about-left-one', {
-      translateX: '-100%',
-    },{
-      scrollTrigger: {
-        trigger: '#about-left-one',
-        scrub: 1,
-        start: 'top bottom',
-        end: 'bottom 70%',
-      },
-      translateX: '0%', 
-    })
+    ScrollTrigger.matchMedia({
 
-    .fromTo('#about-right-one', {
-      translateX: '100%',
-    },{
-      scrollTrigger: {
-        trigger: '#about-right-one',
-        scrub: 1,
-        start: 'top bottom',
-        end: 'bottom 70%',
-      },
-      translateX: '0%',
-    })
+      // desktop
+      '(min-width: 1021px)': function() {
 
-    .fromTo('#about-left-two', {
-      translateX: '-100%',
-    },{
-      scrollTrigger: {
-        trigger: '#about-left-two',
-        scrub: 1,
-        start: 'top bottom',
-        end: 'center 70%',
+        aboutTimelineOne.fromTo('#about-first-transform', {
+          translateY: '-80%',
+        },
+        {
+          scrollTrigger: {
+            trigger: '#about-first-transform',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'bottom top',
+          },
+          translateY: '0%',
+        }) 
+      }, 
+      
+      // mobile
+      '(max-width: 1020px)': function() {
+
+      }, 
+      
+      // all 
+      '(min-width: 620px)': function(){
+
+        aboutTimelineSectond.fromTo('#about-left-one', {
+          translateX: '-100%',
+        },{
+          scrollTrigger: {
+            trigger: '#about-left-one',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'bottom 70%',
+          },
+          translateX: '0%', 
+        })
+    
+        .fromTo('#about-right-one', {
+          translateX: '100%',
+        },{
+          scrollTrigger: {
+            trigger: '#about-right-one',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'bottom 70%',
+          },
+          translateX: '0%',
+        })
+    
+        .fromTo('#about-left-two', {
+          translateX: '-100%',
+        },{
+          scrollTrigger: {
+            trigger: '#about-left-two',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'center 70%',
+          },
+          translateX: '0%',
+        })
+       
+        .fromTo('#about-right-two', {
+          translateX: '100%',
+        },{
+          scrollTrigger: {
+            trigger: '#about-right-two',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'center 70%',
+          },
+          translateX: '0%',
+        })
+      
+        .fromTo('#about-left-three', {
+          translateX: '-100%',
+        },{
+          scrollTrigger: {
+            trigger: '#about-left-three',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'center 70%',
+          },
+          translateX: '0%',
+        })
+      
+        .fromTo('#about-right-three', {
+          translateX: '100%',
+        },{
+          scrollTrigger: {
+            trigger: '#about-right-three',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'center 70%',
+          },
+          translateX: '0%',
+        })
+
       },
-      translateX: '0%',
-    })
-   
-    .fromTo('#about-right-two', {
-      translateX: '100%',
-    },{
-      scrollTrigger: {
-        trigger: '#about-right-two',
-        scrub: 1,
-        start: 'top bottom',
-        end: 'center 70%',
+      'all': function() {
       },
-      translateX: '0%',
-    })
-  
-    .fromTo('#about-left-three', {
-      translateX: '-100%',
-    },{
-      scrollTrigger: {
-        trigger: '#about-left-three',
-        scrub: 1,
-        start: 'top bottom',
-        end: 'center 70%',
-      },
-      translateX: '0%',
-    })
-  
-    .fromTo('#about-right-three', {
-      translateX: '100%',
-    },{
-      scrollTrigger: {
-        trigger: '#about-right-three',
-        scrub: 1,
-        start: 'top bottom',
-        end: 'center 70%',
-      },
-      translateX: '0%',
-    })
+    });
+
 
     /* END ABOUT SECOND SECTION TRANSFORM */
 
@@ -174,8 +192,6 @@ export default {
         page      : 'splide__pagination__page pagination-about-item',
       },
     });
-
-    
 
     var splideTwoAbout = new Splide( '#splide-second-about',{
       type   : 'loop',
@@ -204,7 +220,6 @@ export default {
       updateOnMove : true,
     });
 
-
     splideOneAbout.sync( splideTwoAbout);
     splideOneAbout.mount();
     splideTwoAbout.sync(splideThirdAbout)
@@ -214,7 +229,6 @@ export default {
     /* END SLIDER ABOUT PAGE */
 
     /* END ABOUT SECOND SECTION TRANSFORM */
-
     
     ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
     ScrollTrigger.refresh();

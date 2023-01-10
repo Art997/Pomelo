@@ -30,7 +30,6 @@ export default {
       },
       // LocomotiveScroll handles things completely differently on mobile devices - it doesn't even transform the container at all! So to get the correct behavior and avoid jitters, we should pin things with position: fixed on mobile. We sense it by checking to see if there's a transform applied to the container (the LocomotiveScroll-controlled element).
       pinType: document.querySelector('[data-scroll-container]').style.transform ? 'transform' : 'fixed',
-      
     });
 
     ScrollTrigger.create({
@@ -57,30 +56,47 @@ export default {
             header.classList.remove('sticked');
             headerHolder.classList.remove('height-sticked');	
           }
-        }
+        } 
       });
-
     /* END ALL PAGE NAVBAR FIXED */
 
     /* contact-slide frol right */
-
     const tl = gsap.timeline();
+    
+    ScrollTrigger.matchMedia({
 
-      tl.set('#contact-2',{
-        translateX: '100%',
-      }
-      )
+      // desktop
+      '(min-width: 1021px)': function() {
 
-    .to('#contact-2', {
-      scrollTrigger: {
-        trigger: '#contact-2',
-        scrub: 1,
-        start: 'top top',
-        end: 'bottom +=150',
+        tl.set('#contact-2',{
+          translateX: '100%',
+        }
+        )
+    
+        .to('#contact-2', {
+          scrollTrigger: {
+            trigger: '#contact-2',
+            scrub: 1,
+            start: 'top top',
+            end: 'bottom +=150',
+          },
+          translateX: '0%',
+          // translateY: '-100%',
+        })
+      }, 
+      
+      // mobile
+      '(max-width: 1020px)': function() {
+
+      }, 
+      
+      // all 
+      '(min-width: 620px)': function(){
+
       },
-      translateX: '0%',
-      // translateY: '-100%',
-    })
+      'all': function() {
+      },
+    });
 
     /* END CONTACT SECOND SECTION TRANSFORM */
   

@@ -60,62 +60,81 @@ export default {
     /* END ALL PAGE NAVBAR FIXED */
 
     const offerTimelineFirst = gsap.timeline({ delay:1, ease: 'power2.out' });
-   
-    offerTimelineFirst.from('.element-scale', {
-      scrollTrigger: {
-        trigger: '.container-content-offer-scale',
-        start: 'top center',
-        end: () => innerHeight * 3.8,
-        scrub: 1,
-      },
-      scale: 3.3333,
-      ease: 'none',
-    })
-    .to('.element-scale-heading',{
-      scrollTrigger: {
-        trigger: '.container-content-offer-scale',
-        start: 'top -=200%',
-        end: () => innerHeight * 3.8,
-        scrub: 1,
-      },
-      rotate: '-90dag',
-      translateX: '-100%',
-    })
-    .from('.container-offer-scale-text',{
-      scrollTrigger:{
-        trigger: '.container-offer-scale-text',
-        start: 'top -=150%',
-        end: () => innerHeight * 3.8,
-        scrub: 1,
-      },
-      translateX: '200%',
-      opacity: 0,
-    })
-
-    .from('.offer-webpage-transform', {
-      scrollTrigger:{
-        trigger: '.offer-webpage-transform',
-        scrub: 1,
-        start: 'top bottom',
-        end: 'top 20%',
-      },
-      opacity: 0, 
-    });
-
     const socialScales = document.querySelectorAll('.scale-social');
-    socialScales.forEach(socialScale =>{
-      gsap.from(socialScale, {
-        scrollTrigger:{
-          // trigger: '.offer-sticky-socialmedia',
-          trigger: '#offer-archive-4',
-          scrub: true,
-          start: 'top bottom',
-          // end: () => innerHeight * 2.8,
-          end: 'bottom +=110%', 
-        },
-        scale: 0.2, 
-      })
-    })
+    ScrollTrigger.matchMedia({
+
+      // desktop
+      '(min-width: 1021px)': function() {
+        offerTimelineFirst.from('.element-scale', {
+          scrollTrigger: {
+            trigger: '.container-content-offer-scale',
+            start: 'top center',
+            end: () => innerHeight * 3.8,
+            scrub: 1,
+          },
+          scale: 3.3333,
+          ease: 'none',
+        })
+        .to('.element-scale-heading',{
+          scrollTrigger: {
+            trigger: '.container-content-offer-scale',
+            start: 'top -=200%',
+            end: () => innerHeight * 3.8,
+            scrub: 1,
+          },
+          rotate: '-90dag',
+          translateX: '-100%',
+        })
+        .from('.container-offer-scale-text',{
+          scrollTrigger:{
+            trigger: '.container-offer-scale-text',
+            start: 'top -=150%',
+            end: () => innerHeight * 3.8,
+            scrub: 1,
+          },
+          translateX: '200%',
+          opacity: 0,
+        })
+    
+        .from('.offer-webpage-transform', {
+          scrollTrigger:{
+            trigger: '.offer-webpage-transform',
+            scrub: 1,
+            start: 'top bottom',
+            end: 'top 20%',
+          },
+          opacity: 0, 
+        });
+    
+        
+        socialScales.forEach(socialScale =>{
+          gsap.from(socialScale, {
+            scrollTrigger:{
+              // trigger: '.offer-sticky-socialmedia',
+              trigger: '#offer-archive-4',
+              scrub: true,
+              start: 'top bottom',
+              // end: () => innerHeight * 2.8,
+              end: 'bottom +=110%', 
+            },
+            scale: 0.2, 
+          })
+        })
+       
+      }, 
+      
+      // mobile
+      '(max-width: 1020px)': function() {
+
+      }, 
+      
+      // all 
+      '(min-width: 620px)': function(){
+
+      },
+      'all': function() {
+      },
+    });
     
     ScrollTrigger.addEventListener( 'refresh', () => scrollNav.update() );
     ScrollTrigger.refresh();

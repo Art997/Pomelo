@@ -228,3 +228,171 @@ section#about-4{
         }
     }
 }
+
+@media screen and(max-width:1800px){
+    section#about-2 #about-first-transform .loop-holder .about-p-horizontal{
+        font-size: 100px; 
+    }
+}
+
+@media screen and(max-width:1450px){
+    section#about-2 #about-first-transform .loop-holder .about-p-horizontal{
+        font-size: 80px; 
+    }
+}
+
+@media screen and(max-width:1400px){
+    section#about-1 h2{
+        font-size: 45px;
+    }
+}
+
+@media screen and(max-width:1199px){
+    section#about-1 h2{
+        padding-top: 100px;
+    }
+    section#about-1 .decoration-about-image{
+        height: 300px;
+        width: 80%;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+    section#about-1{
+        padding-bottom: 100px;
+    }
+    section#about-2 #about-first-transform{
+        height: 55vh; 
+    }
+    section#about-3 .slide-from-left-right-about .image-horizontal-about-list{
+        margin-top: 0;
+    }
+    #about-left-three{
+        padding-top: 50px;
+    }
+    section#about-3 .slide-from-left-right-about .text-horizontal-about-list{
+        padding-top: 100px;
+    }
+    section#about-4 #splide-third-about{
+        width: 100%;
+    }
+}
+
+@media screen and(max-width:1020px){
+    section#about-3 .slide-from-left-right-about{
+        padding-top: 100px;
+    }
+    section#about-2 #about-first-transform .content-section p{
+        padding-right: 0;
+        padding-top: 50px;
+    }
+    section#about-2 #about-first-transform{
+        height: auto;
+    }
+    section#about-2 #about-first-transform .loop-holder .about-p-horizontal{
+        font-size: 55px;
+    }
+    section#about-1 p{
+        padding-top: 20px;
+    }
+    section#about-1 .decoration-about-image{
+        margin-top: 50px; 
+    }
+    section#about-1{
+        min-height: auto; 
+    }
+    section#about-2 #about-first-transform .loop-holder .about-p-horizontal{
+        padding-top: 30px;
+    }
+    section#about-4 #splide-first-about{
+        padding: 50px 0;
+    }
+    section#about-4 #splide-third-about{
+        margin-top: -25px;
+    }
+}
+
+@media screen and(max-width:850px){
+    section#about-1 .decoration-about-image p{
+        padding-left: 30px;
+    } 
+    section#about-4 #splide-first-about .second-element-p{
+        padding: 20px 40px;
+    }
+    section#about-4 #splide-third-about .first-element-p{
+        padding: 40px ;
+    }
+    section#about-2 #about-first-transform .content-section{
+        padding: 40px 20px;
+    }
+}
+
+@media screen and(max-width:750px){
+    section#about-1 h2, section#about-1 h2 span{
+        font-size: 35px;
+    } 
+    section#about-2 #about-first-transform .loop-holder .about-p-horizontal{
+        font-size: 35px;
+    }
+    section#about-4 #splide-first-about .splide__pagination li button{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and(max-width:550px){
+    section#about-4 #splide-third-about{
+        margin-left: 0;
+    }
+    section#about-4 #splide-second-about{
+        text-align: center; 
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+    section#about-4 #splide-first-about .splide__pagination li{
+        margin: 0 2%;
+    }
+    section#about-4 #splide-first-about .splide__pagination:after{
+        width: 50%;
+    }
+    section#about-4 #splide-first-about .splide__pagination li button{
+        width: 20px;
+        height: 20px;
+    }
+    section#about-4 #splide-first-about .splide__pagination{
+        padding-top: 20px;
+    }
+    section#about-4 #splide-third-about, section#about-4 #splide-third-about .first-element-p{
+        max-height: 100%;
+    }
+    section#about-2 #about-first-transform .hr-after-loop{
+        width: 50%;
+    }
+    section#about-1 .decoration-about-image{
+        height: auto;
+    }
+}
+
+@media screen and(max-width:450px){
+    section#about-1 .decoration-about-image{ 
+        width: 100%;
+    }
+    section#about-1 p{
+        padding-left: 15px;
+    }
+    section#about-1 h2, section#about-1 h2 span{
+        font-size: 30px;
+    }
+    section#about-1 p, section#about-2 #about-first-transform .content-section p {
+        font-size: 19px;
+    }
+    section#about-3{
+        padding-bottom: 50px;
+    }
+    section#about-4 #splide-first-about .second-element-p{
+        padding: 10px;
+        font-size: 19px;
+    }
+    section#about-4 #splide-first-about .first-element-p{
+        font-size: 50px;
+    }
+}
