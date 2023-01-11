@@ -59,7 +59,6 @@ export default {
         } 
       });
     /* END ALL PAGE NAVBAR FIXED */
-
     /* contact-slide frol right */
     const tl = gsap.timeline();
     
@@ -69,7 +68,7 @@ export default {
       '(min-width: 1021px)': function() {
 
         tl.set('#contact-2',{
-          translateX: '100%',
+          right: '0%',
         }
         )
     
@@ -78,9 +77,9 @@ export default {
             trigger: '#contact-2',
             scrub: 1,
             start: 'top top',
-            end: 'bottom +=150',
+            end: 'bottom +=400',
           },
-          translateX: '0%',
+          right: '100%',
           // translateY: '-100%',
         })
       }, 

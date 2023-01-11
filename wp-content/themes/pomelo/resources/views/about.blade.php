@@ -6,7 +6,7 @@
 
 @section('content')
 
-<section id="about-1" data-scroll-section style="background-image: url('http://localhost/pomelo/wp-content/uploads/2022/12/about.png')">
+<section id="about-1" data-scroll-section style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2022/12/about.png')">
     <div class="container-fluid" >
         <div class="row"> 
             <div class="col-xl-6">
@@ -16,7 +16,7 @@
                 <p data-scroll data-scroll-speed="1.2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
             </div>
             <div class="col-xl-6">
-                <div class="decoration-about-image" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png')" data-scroll data-scroll-speed="-1.3">
+                <div class="decoration-about-image" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png')" data-scroll data-scroll-speed="-1.3">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
                 </div>
             </div>
@@ -43,7 +43,7 @@
     <div class="container-fluid" id="about-second-transform">
         <div class="row slide-from-left-right-about" data-scroll>
             <div class="col-xl-8 image-horizontal-about-list about-image-horizontal" id="about-left-one">
-                <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt="">
+                <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt="">
             </div>
             <div class="col-xl-4 text-horizontal-about-list" id="about-right-one">
                 <h2>Lorem ipsum</h2>
@@ -55,10 +55,10 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
             </div>
             <div class="col-xl-8 image-horizontal-about-list about-image-horizontal" id="about-right-two">
-                <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt="">
+                <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt="">
             </div>
             <div class="col-xl-8 image-horizontal-about-list about-image-horizontal" id="about-left-three">
-                <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt="">
+                <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt="">
             </div>
             <div class="col-xl-4 text-horizontal-about-list" id="about-right-three">
                 <h2>Lorem ipsum</h2>
@@ -122,13 +122,13 @@
                     <div class="splide__track">
                       <ul class="splide__list">
                         <li class="splide__slide">
-                            <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt="">
+                            <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt="">
                         </li>
-                        <li class="splide__slide">   <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt=""></li>
-                        <li class="splide__slide">   <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt=""></li>
-                        <li class="splide__slide">   <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt=""></li>
-                        <li class="splide__slide">   <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt=""></li>
-                        <li class="splide__slide">   <img src="http://localhost/pomelo/wp-content/uploads/2022/12/about-1.png" alt=""></li>
+                        <li class="splide__slide">   <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt=""></li>
+                        <li class="splide__slide">   <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt=""></li>
+                        <li class="splide__slide">   <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt=""></li>
+                        <li class="splide__slide">   <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt=""></li>
+                        <li class="splide__slide">   <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt=""></li>
                       </ul>
                     </div>
                   </section>

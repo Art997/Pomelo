@@ -32,73 +32,73 @@
             <div class="col-xl-12">
                 <div class="gallery-realization-all unvisible single-realization-gallery" >
                     <a href="#" class="fancy-gallery-realization-2 realization-all-single-item" data-scroll>
-                        <div class="gallery-image-2 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/plane-g70c228e39_1920.png')">
+                        <div class="gallery-image-2 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/plane-g70c228e39_1920.png')">
                             <p>Marka 2</p>
                         </div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-1 realization-all-single-item" data-scroll data-scroll-speed="2">
-                        <div class="gallery-image-1 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/coffee-geb92335b4_1920.jpg')">
+                        <div class="gallery-image-1 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/coffee-geb92335b4_1920.jpg')">
                             <p>Marka 1</p>
                         </div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-3 realization-all-single-item" data-scroll data-scroll-speed="2">
-                        <div  class="gallery-image-3 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/sky-g1be3a5549_1920.jpg')">
+                        <div  class="gallery-image-3 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/sky-g1be3a5549_1920.jpg')">
                             <p>Marka 3</p>
                         </div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-4 realization-all-single-item" data-scroll data-scroll-speed="3">
-                        <div  class="gallery-image-4 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/koi-gd00c9631b_1920.jpg')"><p>Marka 4</p></div>
+                        <div  class="gallery-image-4 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/koi-gd00c9631b_1920.jpg')"><p>Marka 4</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-5 realization-all-single-item" data-scroll data-scroll-speed="-0.5">
-                        <div class="gallery-image-5 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/pineapples-gb8e48138d_1920.jpg')"><p>Marka 5</p></div>
+                        <div class="gallery-image-5 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/pineapples-gb8e48138d_1920.jpg')"><p>Marka 5</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-6 realization-all-single-item" data-scroll data-scroll-speed="2.4">
-                        <div  class="gallery-image-6 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/building-ga58a590e9_1920.jpg')"><p>Marka 6</p></div>
+                        <div  class="gallery-image-6 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/building-ga58a590e9_1920.jpg')"><p>Marka 6</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-7 realization-all-single-item" data-scroll data-scroll-speed="2">
-                        <div  class="gallery-image-7 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/android-g8a813f0a9_1280.png')"><p>Marka 7</p></div>
+                        <div  class="gallery-image-7 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/android-g8a813f0a9_1280.png')"><p>Marka 7</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-8 realization-all-single-item" data-scroll data-scroll-speed="-2">
-                        <div  class="gallery-image-8 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/stones-gb972de52e_1920.jpg')"><p>Marka 8</p></div>
+                        <div  class="gallery-image-8 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/stones-gb972de52e_1920.jpg')"><p>Marka 8</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-9 realization-all-single-item" data-scroll data-scroll-speed="1.2">
-                        <div class="gallery-image-9 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/contrast-g61e1431a7_1920.jpg')"><p>Marka 9</p></div>
+                        <div class="gallery-image-9 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/contrast-g61e1431a7_1920.jpg')"><p>Marka 9</p></div>
                     </a>
                     <a href="#"class="fancy-gallery-realization-10 realization-all-single-item" data-scroll data-scroll-speed="2">
-                        <div  class="gallery-image-10 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/window-g11d3b5299_1920.jpg')"><p>Marka 10</p></div>
+                        <div  class="gallery-image-10 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/window-g11d3b5299_1920.jpg')"><p>Marka 10</p></div>
                     </a>
                 </div>
                 <div class="gallery-realization-page unvisible single-realization-gallery" data-scroll-section>
                     <a href="#" class="fancy-gallery-realization-7 realization-page-single-item" data-scroll data-scroll-speed="2">
-                        <div  class="gallery-image-7 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/android-g8a813f0a9_1280.png')"><p>Marka 7</p></div>
+                        <div  class="gallery-image-7 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/android-g8a813f0a9_1280.png')"><p>Marka 7</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-8 realization-page-single-item" data-scroll data-scroll-speed="-2">
-                        <div  class="gallery-image-8 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/stones-gb972de52e_1920.jpg')"><p>Marka 8</p></div>
+                        <div  class="gallery-image-8 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/stones-gb972de52e_1920.jpg')"><p>Marka 8</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-9 realization-page-single-item" data-scroll data-scroll-speed="1.2">
-                        <div class="gallery-image-9 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/contrast-g61e1431a7_1920.jpg')"><p>Marka 9</p></div>
+                        <div class="gallery-image-9 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/contrast-g61e1431a7_1920.jpg')"><p>Marka 9</p></div>
                     </a>
                     <a href="#"class="fancy-gallery-realization-10 realization-page-single-item" data-scroll data-scroll-speed="2">
-                        <div  class="gallery-image-10 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/window-g11d3b5299_1920.jpg')"><p>Marka 10</p></div>
+                        <div  class="gallery-image-10 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/window-g11d3b5299_1920.jpg')"><p>Marka 10</p></div>
                     </a>
                 </div>
                 <div class="gallery-realization-graph unvisible single-realization-gallery" data-scroll-section>
                     <a href="#" class="fancy-gallery-realization-3 realization-graph-single-item" data-scroll data-scroll-speed="2">
-                        <div  class="gallery-image-3 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/sky-g1be3a5549_1920.jpg')">
+                        <div  class="gallery-image-3 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/sky-g1be3a5549_1920.jpg')">
                             <p>Marka 3</p>
                         </div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-4 realization-graph-single-item" data-scroll data-scroll-speed="3">
-                        <div  class="gallery-image-4 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/koi-gd00c9631b_1920.jpg')"><p>Marka 4</p></div>
+                        <div  class="gallery-image-4 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/koi-gd00c9631b_1920.jpg')"><p>Marka 4</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-5 realization-graph-single-item" data-scroll data-scroll-speed="-0.5">
-                        <div class="gallery-image-5 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/pineapples-gb8e48138d_1920.jpg')"><p>Marka 5</p></div>
+                        <div class="gallery-image-5 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/pineapples-gb8e48138d_1920.jpg')"><p>Marka 5</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-6 realization-graph-single-item" data-scroll data-scroll-speed="2.4">
-                        <div  class="gallery-image-6 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/building-ga58a590e9_1920.jpg')"><p>Marka 6</p></div>
+                        <div  class="gallery-image-6 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/building-ga58a590e9_1920.jpg')"><p>Marka 6</p></div>
                     </a>
                     <a href="#" class="fancy-gallery-realization-7 realization-graph-single-item" data-scroll data-scroll-speed="2">
-                        <div  class="gallery-image-7 gallery-img-list" style="background-image: url('http://localhost/pomelo/wp-content/uploads/2023/01/android-g8a813f0a9_1280.png')"><p>Marka 7</p></div>
+                        <div  class="gallery-image-7 gallery-img-list" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2023/01/android-g8a813f0a9_1280.png')"><p>Marka 7</p></div>
                     </a>
                 </div>
             </div>

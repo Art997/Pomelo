@@ -98,7 +98,7 @@
         @endif
       </div>
       <div class="overlay-footer">
-        <img src="http://localhost/pomelo/wp-content/uploads/2022/12/footer-pomelo.png" alt="Pomelo Logo">
+        <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/footer-pomelo.png" alt="Pomelo Logo">
       </div>
       
       </div>

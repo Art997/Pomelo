@@ -28,6 +28,24 @@ body p::-moz-selection, h1::-moz-selection, h2::-moz-selection, h3::-moz-selecti
     background: #FDC800;
 }
 
+::selection{
+  color: black;
+  background: #FDC800;
+}
+
+::-moz-selection{
+  color: black;
+  background: #FDC800;
+}
+
+
+/*loader*/
+
+.mazloader-items .mazloader-item .mazloader-items-wrapper.item_pos_side_by_side{
+	width: 100%;
+	height:100vh;
+}
+
 /* class repear scrolling bug*/
 
 .repear{

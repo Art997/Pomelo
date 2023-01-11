@@ -24,10 +24,10 @@
             <div class="col-xl-6">
                 <div class="image-container">
                     <div class="image-1">
-                        <img src="http://localhost/pomelo/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-2.png" alt="" data-scroll data-scroll-speed="1.4">
+                        <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-2.png" alt="" data-scroll data-scroll-speed="1.4">
                     </div>    
                     <div class="image-2">
-                        <img src="http://localhost/pomelo/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-2.png" alt="" data-scroll data-scroll-speed="-0.5">
+                        <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-2.png" alt="" data-scroll data-scroll-speed="-0.5">
                     </div>
                 </div>
                 <div class="overlay" data-scroll data-scroll-speed="-2.5"></div>
@@ -76,13 +76,13 @@
             </div>
             <div class="col-xl-4 image-container-horizontal">
                 <div class="image-1 image-horizontal">
-                    <img src="http://localhost/pomelo/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-3.png" alt="" data-scroll data-scroll-speed="2" data-scroll-direction="horizontal">
+                    <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-3.png" alt="" data-scroll data-scroll-speed="2" data-scroll-direction="horizontal">
                 </div>
                 <div class="image-2 image-horizontal">
-                    <img src="http://localhost/pomelo/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-3.png" alt=""data-scroll data-scroll-speed="2.5" data-scroll-direction="horizontal">
+                    <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-3.png" alt=""data-scroll data-scroll-speed="2.5" data-scroll-direction="horizontal">
                 </div>
                 <div class="image-3 image-horizontal">
-                    <img src="http://localhost/pomelo/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-3.png" alt=""data-scroll data-scroll-speed="3" data-scroll-direction="horizontal">
+                    <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/valentin-salja-0aX51h4WvAk-unsplash-3.png" alt=""data-scroll data-scroll-speed="3" data-scroll-direction="horizontal">
                 </div>
             </div>
         </div>
@@ -129,19 +129,19 @@
                     <h2 data-scroll data-scroll-speed="2.8">Kilka wybranych realizacji</h2>
                     <div class="container-oferta" data-scroll data-scroll-speed="2">
                         <div class="single-offer offer-1" >
-                            <img src="http://localhost/pomelo/wp-content/uploads/2022/11/oofer1.png" alt="">
+                            <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/oofer1.png" alt="">
                         </div>
                         <div class="single-offer offer-2" >
-                            <img src="http://localhost/pomelo/wp-content/uploads/2022/11/oofer1.png" alt="">
+                            <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/oofer1.png" alt="">
                         </div>
                         <div class="single-offer offer-3" >
-                            <img src="http://localhost/pomelo/wp-content/uploads/2022/11/oofer1.png" alt="">
+                            <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/oofer1.png" alt="">
                         </div>
                         <div class="single-offer offer-4" >
-                            <img src="http://localhost/pomelo/wp-content/uploads/2022/11/oofer1.png" alt="">
+                            <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/oofer1.png" alt="">
                         </div>
                         <div class="single-offer offer-5" >
-                            <img src="http://localhost/pomelo/wp-content/uploads/2022/11/oofer1.png" alt="">
+                            <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/oofer1.png" alt="">
                         </div>
                         <div class="overlay-hr"></div>
                     </div>
@@ -186,7 +186,7 @@
                 <p data-scroll data-scroll-speed="2.4">Trochę o sztuce, Twojej firmie, designie, często<br> zadawanych pytaniach, trochę o filozofii, grafice<br> i tym co może Ci sie przydać.</p>
             </div>
             <div class="col-xl-6 blob-container-main">
-                <canvas id="c" data-scroll data-scroll-speed="1.5"></canvas>
+                <canvas id="c" data-scroll data-scroll-speed="1.5" width="840" height="450"></canvas>
             </div>
         </div>
     </div>
