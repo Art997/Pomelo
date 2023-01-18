@@ -22,7 +22,7 @@
     </div>
     <div class="media-single">
       <p>do obejrzenia</p>
-      <a href="">BEHANCE</a>
+      <a href="https://www.behance.net/pomelovisual"  rel="nofollow" target="_blank">BEHANCE</a>
     </div>
     <div class="media-single">
       <p>do popisania</p>
@@ -30,7 +30,7 @@
     </div>
     <div class="media-single">
       <p>w pracy</p>
-      <a href="">FACEBOOK</a>
+      <a href="https://www.facebook.com/pomelovisual" rel="nofollow" target="_blank">FACEBOOK</a>
     </div>
     <div class="media-single">
       <p>do posłuchania</p>
@@ -46,10 +46,10 @@
 <div class="header-margin"></div>
 <div class="header-holder" >
   <div class="container-logo-hidden-scroll" data-scroll-section >
-    <img src="http://localhost/pomelo/wp-content/uploads/2022/11/pomelo_logo_color.svg" alt="" data-scroll data-scroll-speed="-1.5">
+    <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/pomelo_logo_color.svg" alt="" data-scroll data-scroll-speed="-1.5">
   </div>
   <div class="logo-container" >
-    <img src="http://localhost/pomelo/wp-content/uploads/2022/11/pomelo_logo_header.svg" alt="">
+    <img src="https://pomelovisual.pl/wp-content/uploads/2022/11/pomelo_logo_header.svg" alt="">
   </div>
   <div class="container-wrap-header">
 <header class="" id="site-header" data-scroll-section>

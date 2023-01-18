@@ -53,7 +53,7 @@ section#about-1{
         display: flex;
         align-items: flex-end;
         p{
-            padding-left:300px;
+            padding-left:380px;
             padding-right:30px;
         }
     }  
@@ -62,6 +62,7 @@ section#about-1{
 section#about-2{
     position: relative;
     background-color: #F2E9E1;
+    overflow-x: hidden;
     z-index: 90;
     #about-first-transform{
         height: 70vh;
@@ -223,6 +224,7 @@ section#about-4{
         margin-top: -50px;
         
         .first-element-p{
+            font-size: 26px;
             max-height: 300px;
             padding: 50px 50px 50px 100px;
         }
@@ -245,6 +247,9 @@ section#about-4{
     section#about-1 h2{
         font-size: 45px;
     }
+    section#about-1 .decoration-about-image p{
+            padding-left:180px;
+        }
 }
 
 @media screen and(max-width:1199px){

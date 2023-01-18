@@ -107,6 +107,7 @@
     line-height: 29px;
     padding: 8px 0;
     text-indent: 3px;
+    margin:0;
     span{
       width: 100%;
     input[type=email], input[type=text], input[type=tel]{
@@ -130,7 +131,7 @@
       border-left: none;
       border: 1px solid white; 
       color: white;
-      height: 200px;
+      height: 150px;
       padding: 10px;
       &:focus{
         box-shadow: none;
@@ -195,4 +196,8 @@
       }
     }
   }
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output{
+  color: $background-color;
 }

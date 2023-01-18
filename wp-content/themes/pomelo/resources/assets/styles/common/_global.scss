@@ -2,12 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&display=swap');
 
 $color-main: #FDC800;
+$background-color: #F2E9E1;
+$black: #1c1c20;
 
 body{
     overflow-x: hidden; 
     background-color: #F2E9E1;
     font-family: 'Jost', sans-serif;
     section{
+      background-color: $background-color;
         height: 100%;
         .container-fluid{
             padding:0 130px;

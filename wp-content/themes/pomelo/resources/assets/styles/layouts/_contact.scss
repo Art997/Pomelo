@@ -73,6 +73,7 @@ section#container-contact-2{
     width: 100%;
     position: relative;
     z-index: 0; 
+    background-color: transparent;
     section#contact-2{
         position: relative;
         background-color: #1c1c20;
@@ -131,6 +132,12 @@ section#container-contact-2{
                         text-decoration: none;
                         color: #fff;
                     }
+                }
+                span{
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 29px;
+                    color: #81818191;
                 }
             }
         }

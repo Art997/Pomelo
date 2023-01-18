@@ -67,7 +67,7 @@
         </div>
         <div class="col-xl-3 footer-media-section" >
           <div class="footer-single-media">
-              <a href="#">Behance</a>
+              <a href="https://www.behance.net/pomelovisual"  rel="nofollow" target="_blank">Behance</a>
               <div class="rope"></div>
           </div>
           <div class="footer-single-media">
@@ -75,7 +75,7 @@
               <div class="rope"></div>
           </div>
           <div class="footer-single-media">
-              <a href="#">Facebook</a>
+              <a href="https://www.facebook.com/pomelovisual" rel="nofollow" target="_blank">Facebook</a>
               <div class="rope" ></div>
           </div>
           <div class="footer-single-media">
@@ -88,7 +88,7 @@
         _visual</p>
       </div>
       <div class="col-xl-3 contact-a-footer">
-        <a href="tel:799257469">799 257 469</a>
+        <a href="tel:799257469">123</a>
         <a href="mailto:hello@pomelovisual.pl">hello@pomelovisual.pl</a>
       </div>
       <div class="col-xl-7">
@@ -99,7 +99,7 @@
         <?php endif; ?>
       </div>
       <div class="overlay-footer">
-        <img src="http://localhost/pomelo/wp-content/uploads/2022/12/footer-pomelo.png" alt="Pomelo Logo">
+        <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/footer-pomelo.png" alt="Pomelo Logo">
       </div>
       
       </div>

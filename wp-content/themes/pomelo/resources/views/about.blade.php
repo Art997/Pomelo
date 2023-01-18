@@ -11,13 +11,13 @@
         <div class="row"> 
             <div class="col-xl-6">
                 <h2 data-scroll data-scroll-speed="2.2"> 
-                    Na rynku ponad 5 lat,<br> pod <span>własną marką</span> od roku.
+                    Połączyliśmy siły,od <br>teraz jako <span>Pomelo visual</span>. 
                 </h2>
-                <p data-scroll data-scroll-speed="1.2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
+                <p data-scroll data-scroll-speed="1.2">Otwarcie mówimy, że jesteśmy na rynku nowi. Dlatego też oferujemy  najświeższe i najbardziej aktualne na rynku rozwiązania, które zwiększą waszą widoczność ponad konkurencję. Nasze poprzednie doświadczenia, połączone w jedną całość kreują zupełnie nowe rzeczy.</p>
             </div>
             <div class="col-xl-6">
                 <div class="decoration-about-image" style="background-image: url('https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png')" data-scroll data-scroll-speed="-1.3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
+                    <p>Grafik potrzebujący portfolio musi zlecić napisanie strony www, gdzie znajdą się jego prace. Programista, aby napisać dobrze wyglądającą stronę www musi zlecić zaprojektowanie strony. Właściwie tak powstało <span style="color: #FDC800">Pomelo</span></p>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="hr-after-loop"></div>
                 <div class="content-section" data-scroll data-scroll-speed="1.7">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum rLorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. isus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
+                    <p>Zaczęło się od.. fotografii i momentu, w którym strona internetowa zaczęła być niezbędnym elementem naszej dalszej drogi. Naszym pierwszym klientem byliśmy, my sami. Wcześniej pracowaliśmy w agencjach i “na freelancerce”, jednak postanowiliśmy kontynuować nasz kolektyw w oparciu o kolejny projekt. Tak powstało <span style="color: #FDC800">Pomelo</span>. Postanowiliśmy pracować razem również w tej dziedzinie i tak zostało do dziś. </p>
                 </div>                
             </div>
         </div>
@@ -46,13 +46,13 @@
                 <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt="">
             </div>
             <div class="col-xl-4 text-horizontal-about-list" id="about-right-one">
-                <h2>Lorem ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
+                <h2>Czym się kierujemy?</h2>
+                <p>Kierujemy się tym, że nazywając się specjalistami w pełni utożsamiamy się z tym stwierdzeniem. Zależy nam na wartościowych projektach i tylko takie Wam oddajemy - jak już wspominaliśmy, wszystko może być sztuką. :) </p>
             </div>
            
             <div class="col-xl-4 text-horizontal-about-list" id="about-left-two">
-                <h2>Lorem ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
+                <h2>Skąd się to bierze?</h2>
+                <p>Wszystko co robimy było przetestowane na naszej własnej skórze, od pierwszej strony internetowej, przez logo, aż po copywriting, który dopełnia nasz wachlarz umiejętności. </p>
             </div>
             <div class="col-xl-8 image-horizontal-about-list about-image-horizontal" id="about-right-two">
                 <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt="">
@@ -61,8 +61,8 @@
                 <img src="https://pomelovisual.pl/wp-content/uploads/2022/12/about-1.png" alt="">
             </div>
             <div class="col-xl-4 text-horizontal-about-list" id="about-right-three">
-                <h2>Lorem ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
+                <h2>Jak do tego doszło?</h2>
+                <p>Doświadczenie mierzone w wiedzy, nie w latach. Intensywnie rozwijamy się w tym co robimy, szczęśliwie, praca to nasza pasja i nie zapowiada się, że się to zmieni. </p>
             </div>
         </div>
     </div>
@@ -76,39 +76,39 @@
                     <div class="splide__track">
                       <ul class="splide__list">
                         <li class="splide__slide" >
-                            <p class="first-element-p">2012</p>
+                            <p class="first-element-p">2018</p>
                             <p class="second-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Pierwsze zlecenie komercyjne
                             </p>
                         </li>
                         <li class="splide__slide">
-                            <p class="first-element-p">2013</p>
+                            <p class="first-element-p">2019</p>
                             <p class="second-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Pół człowiek, pół grafik
                             </p>
                         </li>
                         <li class="splide__slide">
-                            <p class="first-element-p">2014</p>
+                            <p class="first-element-p">2020</p>
                             <p class="second-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Fotograf, który stał się progamistą
                             </p>
                         </li>
                         <li class="splide__slide">
-                            <p class="first-element-p">2015</p>
+                            <p class="first-element-p">2021</p>
                             <p class="second-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Moment, w którym hobby stało się poważne 
                             </p>
                         </li>
                         <li class="splide__slide">
-                            <p class="first-element-p">2016</p>
+                            <p class="first-element-p">2022</p>
                             <p class="second-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Największy  rozwój i pierwsza wzmianka o Pomelo
                             </p>
                         </li>
                         <li class="splide__slide">
-                            <p class="first-element-p">2017</p>
+                            <p class="first-element-p">2023</p>
                             <p class="second-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Pomelo, oficjalnie
                             </p>
                         </li>
                       </ul>
@@ -140,39 +140,35 @@
                       <ul class="splide__list">
                         <li class="splide__slide">
                             <p class="first-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Właściwie to grafika wyewoluowała z rysunku. Był Instagram z rysunkami i był chętny na wykorzystanie jednego z obrazów na okładkę singla, ale trzeba było go poprawić graficznie.. i tak się zaczęło :) 
                             </p>
                         </li>
                         <li class="splide__slide">
                             <p class="first-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Jako grafik zwiedziłem korporacje i agencję. Każde z tych miejsc znacząco poszerzyło moje horyzonty. W tym roku zacząłem dostawać pierwsze zlecenia jako freelancer.
                             </p>
                         </li>
                         <li class="splide__slide">
                             <p class="first-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Zanim powstała strona, trzeba było wiedzieć jak ją napisać. Do dzisiaj nie wiem jak, w tak krótkim czasie, można się tyle nauczyć. Być może Artur skutecznie przedemną ukrywał, że uczył się kodować w Javie (dziś mówi, że to był głupi pomysł jako pierwszy język programowania do nauki). Projektowanie graficzne było naszym zespole było znacznie wcześniej i znacznie dłużej, ale o tym dalej.
                             </p>
                         </li>
                         <li class="splide__slide">
                             <p class="first-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                W tym roku powstała strona dotycząca fotografii. Coraz częściej polecaliśmy wzajemnie swoje usługi realizując prace dla wielu klientów.
                             </p>
                         </li>
                         <li class="splide__slide">
                             <p class="first-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Zaczęła napływać do nas spora ilość zapytań o kompleksowe usługi. Wtedy został poruszony temat przejścia pod jeden szyld i działania jako kolektyw. Rok, w którym rozwinęliśmy się o nowe kategorie  w portfolio. 
                             </p>
                         </li>
                         <li class="splide__slide">
                             <p class="first-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
+                                Strona pomelovisual.pl zaczyna funkcjonować. Zaczynamy zbiór naszych dzieł w jednym miejscu, pod jednym szyldem. 
                             </p>
                         </li>
-                        <li class="splide__slide">
-                            <p class="first-element-p">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. 
-                            </p>
-                        </li>
+
                       </ul>
                     </div>
                   </section>

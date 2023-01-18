@@ -117,6 +117,15 @@ section#offer-archive-2{
             ul{
               li{
                 padding: 10px 0;
+                a{
+                  color: black;
+                  opacity:1;
+                  transition: all 0.2s ease;
+                  &:hover{
+                    opacity:0.7;
+                    text-decoration: none;
+                  }
+                }
               }
             }
            }
@@ -167,6 +176,10 @@ section#offer-archive-3{
       position: absolute;
       padding: 30px;
     }
+    .webpage-bg{
+      background-color: $background-color;
+      color: $black;
+    }
     .container-webpage-list{
       border: 1px solid white;
       padding:20px;
@@ -179,20 +192,31 @@ section#offer-archive-3{
       ul{
         li{
           padding: 10px 0;
+          a{
+            color: #fff;
+            opacity:1;
+            transition: all 0.2s ease;
+            &:hover{
+              opacity:0.7;
+              text-decoration: none;
+            }
+          }
         }
       }
     }
     .container-classic-button{
       border: 1px solid white;
       padding:30px;
-       a{
+      .button-offer-cont{
+        outline: 1px solid white;
+        a{
         color: white !important;
-        border: 1px solid white;
+      }
       }
     }
     }
 }       
-}
+} 
 }
 
 section#offer-archive-4{
@@ -339,7 +363,7 @@ section#offer-archive-5{
       flex-wrap: wrap;
       border-bottom: 2px solid white;
       border-top: 2px solid white;
-      transform: translate(0%, 0);
+      transform: translate(-10%, 0);
       height: 190px;
       p{
           text-transform: uppercase;
@@ -390,9 +414,11 @@ section#offer-archive-5{
   }
   .container-classic-button{
     padding:30px;
-     a{
-      color: white !important;
-      border: 1px solid white;
+    .button-offer-cont{
+      outline: 1px solid white;
+      a{
+        color: white !important;
+      }
     }
   }
 }
@@ -612,6 +638,9 @@ section#offer-archive-5{
   }
   section#offer-archive-4 #offer-sticky-2 .offer-sticky-socialmedia .scale-social{
     padding: 20px 0 ;
+  }
+  section#offer-archive-3 .offer-webpage-transform .row .container-webpage-offer .container-webpage-p, section#offer-archive-4 #offer-sticky-2 .offer-sticky-socialmedia p, section#offer-archive-5 .copy-offer p{
+    padding:20px;
   }
 }
 

@@ -6,7 +6,7 @@
                 <h2 data-scroll data-scroll-speed="2.0">
                     Co możemy dla Ciebie zrobić, aby <span>Twój biznes</span> się rozwijał?
                 </h2>
-                <p data-scroll data-scroll-speed="2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nunc id sit mauris accumsan condimentum risus enim faucibus. Id condimentum lectus blandit nunc sem. Iaculis ac tortor interdum tristique nunc lectus at laoreet. </p>
+                <p data-scroll data-scroll-speed="2.5">Dlaczego by nie posłuchać rady grafika na temat projektowania graficznego? Często to co uważamy za ładne i atrakcyjne nie jest wpisane w estetykę naszego klienta. Może warto to zmienić? </p>
             </div>
             <div class="col-lg-6">
                 <div class="container-yt">
@@ -37,16 +37,18 @@
                                 </h2>
                             </div>
                             <div class="container-offer-scale-text">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                <h3>Przyklady realizacji</h3>
+                                <p>Wyobraź sobie, że klient myśli właśnie o Twojej branży. Szuka produktu/usługi, który można otrzymać od Ciebie, może warto ułatwić mu zapamiętanie nazwy Twojej firmy logo i materiałami reklamowymi? <br>
+                                    Sprawimy, że Twoja marka wpisze się w gusta Twoich potencjalnych klientów. Pomożemy Ci wyróżnić się na tle konkurencji i wyraźnie zarysować na Twoim obszarze działania</p>
+                                <h3>Szczegóły</h3>
                                 <ul>
-                                    <li>realizacja 1</li>
-                                    <li>realizacja 1</li>
-                                    <li>realizacja 1</li>
+                                    <li><a href="">Właściwie po co Ci logo?</a> </li>
+                                    <li><a href="">Czemu to (logo) tyle kosztuje?</a></li>
+                                    <li> <a href="">Co zapewni Ci identyfikacja wizualna?</a></li>
                                 </ul>
                                 <div class="container-classic-button">
-                                    <a href="#" class="button-clasic">Szczegóły</a>
-                                    <span class="submit-bg"></span>
+                                    <div class="button-offer-cont">
+                                    <a href="https://pomelovisual.pl/realizacje/" class="button-clasic">Realizacje</a>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -66,26 +68,28 @@
                     </h2>
                     <div class="row">
                         <div class="col-xl-8">
-                            <div class="container-webpage-p" data-scroll data-scroll-speed="2.5">
+                            <div class="container-webpage-p webpage-bg" data-scroll data-scroll-speed="2.5">
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    W Social Mediach są wszyscy, ale nie wszyscy mają swoją stronę. Lepiej pokazać swoje usługi na własnej stronie niż w galerii na którymś z portali. Własne miejsce w sieci to pierwszy krok do wyróżnienia się w Internecie - zróbmy go razem.<br>
+                                    Social Media to platformy z definicji służące do budowania wizerunku i grupy odbiorców. Miejsce na biznes jest pod własnym adresem www, dlatego czym szybciej postanowisz tu wejść, tym szybciej zyskasz nowych odbiorców.
                                 </p>
                             </div>
                         </div>
                         <div class="col-xl-4">
                             <div class="container-webpage-list"  data-scroll data-scroll-speed="2.1">
-                                <h3 >Przyklady realizacji</h3>
+                                <h3 >Szczegóły</h3>
                                 <ul>
-                                    <li>realizacja 1</li>
-                                    <li>realizacja 1</li>
-                                    <li>realizacja 1</li>
+                                    <li><a href="">Darmowy kreator czy indywidualny projekt?</a></li>
+                                    <li><a href=""> Strona www, koszty miesięczne i roczne</a></li>
+                                    <li><a href=""> Co się składa na kompletną witrynę?</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-12" >
                             <div class="container-classic-button" data-scroll data-scroll-speed="1.6">
-                                <a href="#" class="button-clasic">Szczegóły</a>
-                                <span class="submit-bg"></span>
+                                <div class="button-offer-cont">
+                                <a href="https://pomelovisual.pl/realizacje/" class="button-clasic">Realizacje</a>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -99,26 +103,27 @@
         <div class="row" id="offer-sticky-2">
             <div class="offer-sticky-socialmedia" data-scroll data-scroll-sticky data-scroll-target="#offer-sticky-2">
                 <div class="col-xl-12 scale-social ">
-                    <h2 class="floating-1">Social <span>media</span></h2>
+                    <h2 class="floating-1">Zdjęcia i <span>film</span></h2>
                 </div> 
                 <div class="col-xl-6 scale-social" >
                     <h3>Oferta</h3>
-                    <p >
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <p>
+                        Chcesz wzmocnić swój wizerunek profesjonalnymi zdjęciami, dzięki którym zyskasz w oczach klientach? W o nas przeczytasz, że z fotografią też mamy sporo wspólnego. Klienci kupują oczami, ale skoro jesteś na naszej stronie to już pewnie wiesz. :)<br>Zyskujące popularność reelsy, filmy instruktażowe lub po prostu reklamówki to doskonałe medium reklamowe do kontaktu z Twoim klientem. Obecnie wiele firm stawia na reklamę w formie video. Bez obaw, napiszemy scenariusz, nagramy i zmontujemy.
                     </p>
-                    <div class="container-classic-button floating-3">
-                        <a href="#" class="button-clasic">Szczegóły</a>
-                        <span class="submit-bg"></span>
+                    <div class="container-classic-button floating-3" data-scroll data-scroll-speed="1.8">
+                        <div class="button-offer-cont">
+                            <a href="https://pomelovisual.pl/kontakt/" class="button-clasic">Kontakt</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-3 scale-social" >
                     <div class="container-socialmedia-offer floating-2">
-                        <h3>Facebook</h3>
+                        <h3>Foto</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 scale-social" >
                     <div class="container-socialmedia-offer floating-4">
-                        <h3 >Instagram</h3>
+                        <h3>Video</h3>
                     </div>
                 </div>              
             </div>  
@@ -128,35 +133,34 @@
   <section id="offer-archive-5" data-scroll-section>
     <div class="moving-text-container">
         <p>
-            Copywriting teksty Copywriting teksty 
+            druk ulotki wizytówki banery plakaty
         </p>
         <p>
-            Copywriting teksty Copywriting teksty 
+            druk ulotki wizytówki banery plakaty
         </p>
         
     </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-6 copy-offer">
-                <h2 data-scroll data-scroll-speed="1.5">Copywriting</h2>
-                <p data-scroll data-scroll-speed="2.2"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <h2 data-scroll data-scroll-speed="1.5">Projekty do <span>druku</span></h2>
+                <p data-scroll data-scroll-speed="2.2"> Skąd Twoi klienci mają się o Tobie dowiedzieć? Jak mają poznać Twój biznes na ulicy? Ogarniemy przykuwający uwagę baner, ulotkę, którą klient będzie chciał oprawić w ramkę i inne materiały do reklamy drukowanej. <br>
+                    Po za projektem pomożemy Ci znaleźć drukarnie, która sprosta Twoim oczekiwaniom pod każdym względem, nie mówimy, że drukujemy zlecając to komuś innemu i pobierając za to prowizję. :)</p>
                 <div class="container-classic-button floating-3" data-scroll data-scroll-speed="1.8">
-                    <a href="#" class="button-clasic">Szczegóły</a>
-                    <span class="submit-bg"></span>
+                    <div class="button-offer-cont">
+                        <a href="https://pomelovisual.pl/kontakt/" class="button-clasic">Kontakt</a>
+                    </div>
                 </div>
-                
             </div>
-           
         </div>
     </div>
     <div class="moving-text-container-2">
         <p>
-            Copywriting teksty Copywriting teksty 
+            druk ulotki wizytówki banery plakaty
         </p>
         <p>
-            Copywriting teksty Copywriting teksty 
+            druk ulotki wizytówki banery plakaty
         </p>
-  
     </div>
   </section>
 <?php $__env->stopSection(); ?>

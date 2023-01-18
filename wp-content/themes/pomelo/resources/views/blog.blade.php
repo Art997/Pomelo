@@ -53,7 +53,7 @@
             </div>
             <div class="col-xl-12">
                 <div class="container-filter">   
-                    <div class="container-block-faq button-category-first" data-scroll data-scroll-speed="1.5">
+                    <div class="container-block-faq button-category-first">
                         <button aria-expanded="false">
                             <h5> 
                                 Kategorie
@@ -82,7 +82,7 @@
                         @endphp 
                     </div>
                 </div>
-                <div class="container-block-faq button-category-second" data-scroll data-scroll-speed="2.5">
+                <div class="container-block-faq button-category-second">
                     <button aria-expanded="false" >
                         <h5> 
                             Tagi

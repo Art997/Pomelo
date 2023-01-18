@@ -5,7 +5,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section id="contact-1" data-scroll-section >
+    <section id="contact-1" data-scroll-section>
         <div class="container-fluid contact-sticky" data-scroll data-scroll-sticky data-scroll-target="#contact-1">
             <div class="row">
                 <div class="col-xl-10" >
@@ -13,7 +13,6 @@
                         <span data-scroll  >Kontakt</span> 
                         <span data-scroll  >z</span> 
                         <span data-scroll >nami</span>
-                       
                         <br>
                         <span data-scroll  >to </span>
                         <span data-scroll  >pierwszy</span> 
@@ -42,27 +41,28 @@
                     </div>
                     <div class="col-lg-3 brief-section">
                         <h2>Brief</h2>
-                        <h3>Wiesz po co tu przyszedłeś i chcesz otrzymać szczegółową wycenę? Wypełnij brief a my się odezwiemy!</h3>
+                        <h3>Jesteś zdecydowany na współpracę? Od razu opowiedz nam o swoim projekcie.</h3>
                         <ul>
                             <li>
-                                <a href="#" target="_blank">Strona www</a>
+                                <a href="#" target="_blank">Strona www</a><br>
+                                <span>(strona www, sklep internetowy, droppshiping)</span>
                             </li>
                             <li>
-                                <a href="#" target="_blank">Sklep internetowy</a>
+                                <a href="#" target="_blank">Identyfikacja wizualna</a><br>
+                                <span>
+                                    (logo, kreacja, DTP, księga znaku)
+                                </span>
                             </li>
                             <li>
-                                <a href="#" target="_blank">identyfikacja wizualna</a>
+                                <a href="#" target="_blank">Reklama do druku</a><br>
+                                <span>(wizytówki, banery, ulotki, plakaty, rollupy)</span>
                             </li>
                             <li>
-                                <a href="#" target="_blank">Film i animacja</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">Logotyp</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">Copywriting</a>
+                                <a href="#" target="_blank">Fotografia i film</a><br>
+                                <span>(zdj. biznesowe, biura, produktowe, nieruchomości, filmy reklamowe, relacje, montaż, edycja)</span>
                             </li>
                         </ul>
+                        <h3>Wypełnienie briefu zajmie Ci nie więcej niż 10 minut, po wypełnieniu otrzymasz od razu na maila wycenę swojego projektu.</h3>
                     </div>
                 </div>
             </div>

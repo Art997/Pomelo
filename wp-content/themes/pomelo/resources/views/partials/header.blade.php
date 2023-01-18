@@ -21,7 +21,7 @@
     </div>
     <div class="media-single">
       <p>do obejrzenia</p>
-      <a href="">BEHANCE</a>
+      <a href="https://www.behance.net/pomelovisual"  rel="nofollow" target="_blank">BEHANCE</a>
     </div>
     <div class="media-single">
       <p>do popisania</p>
@@ -29,7 +29,7 @@
     </div>
     <div class="media-single">
       <p>w pracy</p>
-      <a href="">FACEBOOK</a>
+      <a href="https://www.facebook.com/pomelovisual" rel="nofollow" target="_blank">FACEBOOK</a>
     </div>
     <div class="media-single">
       <p>do posłuchania</p>

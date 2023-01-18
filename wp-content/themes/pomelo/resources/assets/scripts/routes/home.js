@@ -234,7 +234,7 @@ export default {
         //   translateY: '-90%',
         // })
           timelineHomeFirts.fromTo('#home-contact', {
-            translateY: '-90%'},{
+            translateY: '-80%'},{
             scrollTrigger: {
               trigger: '#home-contact',
               scrub: true,
