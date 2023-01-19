@@ -223,6 +223,7 @@ section#home-4{
 section#home-5{
     padding-top:100px;
     position: relative;
+    background-color: #F2E9E1;
     z-index: 200;
     .lerp-wrap {
         display: inline-block;
@@ -299,6 +300,10 @@ section#home-5{
                     }
                 }
             }
+        }
+        .wpcf7-response-output{
+            color: black;
+            text-align: center;
         }
       }
       .middle{
@@ -772,14 +777,17 @@ section#home-9{
     }
     section#home-7 #home-contact .col-md-9 .p-home-7{
         padding: 100px;
-        padding-right: 85px;
-        padding-left:115px;
     } 
     section#home-7 #home-contact .col-md-9 .p-home-7-overlay{
         padding: 100px;
+        right:0;
     }
     section#home-7 #home-contact .col-md-3 .contact-single-item-container .rope{
         transform: scaleX(1); 
+    }
+    section#home-7 #home-contact, #home-contact .row{
+        width:100%;
+        margin:0;
     }
 }
 
@@ -796,6 +804,7 @@ section#home-9{
     }
     section#home-9 .landing-blog-a .landing-blog-container .landing-blog-p{
         font-size: 35px;
+        line-height: 37px;
     }
 }
 
@@ -805,8 +814,8 @@ section#home-9{
     }
     section#home-7 #home-contact .col-md-9 .p-home-7-overlay{
         padding: 20px;
-        padding-right: 35px;
-        padding-left: 0px;
+        // padding-right: 35px;
+        // padding-left: 0px;
     } 
 }
 
@@ -840,10 +849,14 @@ section#home-9{
         text-indent: 0;
         // padding: 0;
         padding: 40px 60px;
+        width:100%;
+        left: 0;
+        right: 0;
     }
     section#home-7 #home-contact .col-md-9 .p-home-7-overlay{
-        padding: 40px 30px;
-        padding-left: 45px;
+        // padding: 40px 30px;
+        // padding-left: 45px;
+        padding:40px 0px;
     }
 }
 
@@ -900,6 +913,9 @@ section#home-9{
     section#home-9 .landing-blog-a .landing-blog-container .landing-blog-img{
         height: 300px; 
     }
+    section#home-9 .landing-blog-a .landing-blog-container:hover .landing-blog-img{
+        height: 300px; 
+    }
     section#home-9 .landing-blog-a .landing-blog-container .landing-blog-p{
         font-size: 26px;
     }
@@ -923,15 +939,13 @@ section#home-9{
         font-size: 29px;
     }
     section#home-7 #home-contact .col-md-9 .p-home-7-overlay{
-        padding:20px;
+        padding:20px 0;
         margin: 0;
-    }
-    section#home-7 #home-contact .col-md-9 .p-home-7{
-        padding: 20px 25px 20px ;
-    }
-    section#home-7 #home-contact .col-md-9 .p-home-7-overlay{
         width: 100%;
         right: 0;
+    }
+    section#home-7 #home-contact .col-md-9 .p-home-7{
+        padding: 20px;
     }
     section#home-7 #home-contact .col-md-9{
         padding: 20px;

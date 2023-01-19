@@ -46,9 +46,9 @@
                                     <li> <a href="">Co zapewni Ci identyfikacja wizualna?</a></li>
                                 </ul>
                                 <div class="container-classic-button">
-                                    <div class="button-offer-cont">
-                                    <a href="https://pomelovisual.pl/realizacje/" class="button-clasic">Realizacje</a>
-                                </div>
+                                    <a href="https://pomelovisual.pl/realizacje/" class="button-clasic">
+                                        <div class="button-offer-cont">Realizacje</div>
+                                    </a>
                                 </div>
                             </div>
                         </div>

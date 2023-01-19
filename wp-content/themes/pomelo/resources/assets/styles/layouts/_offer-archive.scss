@@ -3,7 +3,6 @@ section#offer-archive-1{
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat; 
-    background-attachment: fixed;
     position: relative;
     z-index: 20;
     h2{
@@ -207,10 +206,11 @@ section#offer-archive-3{
     .container-classic-button{
       border: 1px solid white;
       padding:30px;
-      .button-offer-cont{
-        outline: 1px solid white;
-        a{
+      a{
         color: white !important;
+      .button-offer-cont{
+        color: white !important;
+        outline: 1px solid white;
       }
       }
     }
@@ -414,10 +414,11 @@ section#offer-archive-5{
   }
   .container-classic-button{
     padding:30px;
+    a{
+      color: white !important;
     .button-offer-cont{
       outline: 1px solid white;
-      a{
-        color: white !important;
+      color: white !important;
       }
     }
   }
@@ -514,6 +515,9 @@ section#offer-archive-5{
 } 
 
 @media screen and(max-width:1020px){
+  section#offer-archive-4 #offer-sticky-2 .offer-sticky-socialmedia{
+    height: auto; 
+  }
   section#offer-archive-1 h2{
     padding-right: 15px;
   }

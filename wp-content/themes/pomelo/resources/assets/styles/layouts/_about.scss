@@ -169,6 +169,7 @@ section#about-4{
             li{
                 margin: 0 5%;
                 button{
+                    padding:0;
                     border: 1px solid black;
                     width: 40px;
                     height: 40px;
@@ -313,6 +314,9 @@ section#about-4{
     }
     section#about-4 #splide-third-about{
         margin-top: -25px;
+    }
+    section#about-4 #splide-third-about .first-element-p{
+        font-size:20px;
     }
 }
 

@@ -106,6 +106,10 @@ section#blog-2{
                     background-color: #F2E9E1;
                     height: 50px;
                     transition: all 0.2s ease;
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
                     h5{
                         font-family: 'Jost';
                         font-style: normal;
@@ -114,6 +118,14 @@ section#blog-2{
                         padding: 7px 25px 7px 25px;
                         display: flex;
                         align-items: center;
+                        a{
+                            color: black;
+                            text-decoration: none;
+                            &:hover{
+                                color: black;
+                            text-decoration: none;
+                            }
+                        }
                         &:after{
                             content: "";
                             margin-left: 15px;
